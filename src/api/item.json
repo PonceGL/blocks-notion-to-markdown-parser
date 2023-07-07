@@ -1,0 +1,11 @@
+{
+  "draft": false,
+  "ogImage": "https://notion-blog.vercel.app/api/asset?assetUrl=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fcac1b5d1-4be2-44f2-990f-816d45b32532%2Fnext-dynamic.png&blockId=b0f9af04-a04f-4833-b7a2-ef68c62ec79e",
+  "slug": "my-first-post",
+  "featured": true,
+  "description": "Ahora que descubrimos cómo cargar los datos, necesitamos descubrir cómo representarlo sin dejar de tener la flexibilidad que ofrece MDX pero la velocidad que ofrece nuestro enfoque de generación de sitios estáticos.",
+  "author": "43804446-140c-4054-9133-1150f35bd40a",
+  "date": "2023-07-07T15:22:00.000Z",
+  "tags": ["JavaScript"],
+  "title": "My first Post"
+}

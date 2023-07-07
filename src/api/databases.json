@@ -1,0 +1,292 @@
+{
+  "object": "list",
+  "results": [
+    {
+      "object": "page",
+      "id": "61fcec6f-3610-43a8-bc04-5dd8e9789fba",
+      "created_time": "2023-07-07T16:44:00.000Z",
+      "last_edited_time": "2023-07-07T16:46:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "478e7933-eaf2-488c-bd96-e11485faf9ed"
+      },
+      "archived": false,
+      "properties": {
+        "draft": {
+          "id": "%3AM%3AQ",
+          "type": "checkbox",
+          "checkbox": false
+        },
+        "ogImage": {
+          "id": "%3Bp%5Cg",
+          "type": "url",
+          "url": null
+        },
+        "slug": {
+          "id": "%3D%7BTa",
+          "type": "rich_text",
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "que-es-desarrollo-frontend-y-que-hace-un-frontend-developer",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "que-es-desarrollo-frontend-y-que-hace-un-frontend-developer",
+              "href": null
+            }
+          ]
+        },
+        "💼 Business": {
+          "id": "Fem%3D",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "featured": {
+          "id": "Pskn",
+          "type": "checkbox",
+          "checkbox": false
+        },
+        "description": {
+          "id": "%5DCHI",
+          "type": "rich_text",
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "El desarrollo frontend es una rama del desarrollo que se enfoca en la parte visual y de interacción de una página web o aplicación.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "El desarrollo frontend es una rama del desarrollo que se enfoca en la parte visual y de interacción de una página web o aplicación.",
+              "href": null
+            }
+          ]
+        },
+        "author": {
+          "id": "bGWS",
+          "type": "people",
+          "people": [
+            {
+              "object": "user",
+              "id": "43804446-140c-4054-9133-1150f35bd40a"
+            }
+          ]
+        },
+        "date": {
+          "id": "%7B%7Dw_",
+          "type": "created_time",
+          "created_time": "2023-07-07T16:44:00.000Z"
+        },
+        "tags": {
+          "id": "~K%5Eu",
+          "type": "multi_select",
+          "multi_select": [
+            {
+              "id": "74407a13-33b9-4927-b454-2523dab8a810",
+              "name": "Desarrollo Web",
+              "color": "blue"
+            }
+          ]
+        },
+        "title": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "¿Qué es Desarrollo Frontend y Qué Hace un Frontend developer?",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "¿Qué es Desarrollo Frontend y Qué Hace un Frontend developer?",
+              "href": null
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/Qu-es-Desarrollo-Frontend-y-Qu-Hace-un-Frontend-developer-61fcec6f361043a8bc045dd8e9789fba",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "3861029c-d775-46bb-99d7-a6ef29c6085a",
+      "created_time": "2023-07-07T15:22:00.000Z",
+      "last_edited_time": "2023-07-07T18:11:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "478e7933-eaf2-488c-bd96-e11485faf9ed"
+      },
+      "archived": false,
+      "properties": {
+        "draft": {
+          "id": "%3AM%3AQ",
+          "type": "checkbox",
+          "checkbox": false
+        },
+        "ogImage": {
+          "id": "%3Bp%5Cg",
+          "type": "url",
+          "url": "https://notion-blog.vercel.app/api/asset?assetUrl=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fcac1b5d1-4be2-44f2-990f-816d45b32532%2Fnext-dynamic.png&blockId=b0f9af04-a04f-4833-b7a2-ef68c62ec79e"
+        },
+        "slug": {
+          "id": "%3D%7BTa",
+          "type": "rich_text",
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "my-first-post",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "my-first-post",
+              "href": null
+            }
+          ]
+        },
+        "💼 Business": {
+          "id": "Fem%3D",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "featured": {
+          "id": "Pskn",
+          "type": "checkbox",
+          "checkbox": true
+        },
+        "description": {
+          "id": "%5DCHI",
+          "type": "rich_text",
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Ahora que descubrimos cómo cargar los datos, necesitamos descubrir cómo representarlo sin dejar de tener la flexibilidad que ofrece MDX pero la velocidad que ofrece nuestro enfoque de generación de sitios estáticos.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Ahora que descubrimos cómo cargar los datos, necesitamos descubrir cómo representarlo sin dejar de tener la flexibilidad que ofrece MDX pero la velocidad que ofrece nuestro enfoque de generación de sitios estáticos.",
+              "href": null
+            }
+          ]
+        },
+        "author": {
+          "id": "bGWS",
+          "type": "people",
+          "people": [
+            {
+              "object": "user",
+              "id": "43804446-140c-4054-9133-1150f35bd40a"
+            }
+          ]
+        },
+        "date": {
+          "id": "%7B%7Dw_",
+          "type": "created_time",
+          "created_time": "2023-07-07T15:22:00.000Z"
+        },
+        "tags": {
+          "id": "~K%5Eu",
+          "type": "multi_select",
+          "multi_select": [
+            {
+              "id": "F^{K",
+              "name": "JavaScript",
+              "color": "green"
+            }
+          ]
+        },
+        "title": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "My first Post",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "My first Post",
+              "href": null
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/My-first-Post-3861029cd77546bb99d7a6ef29c6085a",
+      "public_url": null
+    }
+  ],
+  "next_cursor": null,
+  "has_more": false,
+  "type": "page",
+  "page": {},
+  "developer_survey": "https://notionup.typeform.com/to/bllBsoI4?utm_source=postman"
+}

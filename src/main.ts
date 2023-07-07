@@ -1,4 +1,4 @@
-import { Block } from "./types";
+import { Block } from "./interfaces/blocks";
 
 export function Parser(blocks: Block[]) {
   console.log("====================================");
