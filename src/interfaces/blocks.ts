@@ -1,5 +1,4 @@
-import { Parent, TedBy } from "../types";
-
+import { Parent, TedBy } from '../types';
 
 export type BlocksResponseNotionAPI = {
   object: string;
@@ -25,45 +24,36 @@ export type Block = {
   [key: string]: TypeBlock;
 };
 
-export type TypeBlock =
-  | Paragraph
-  | Heading
-  | Code
-  | Divider
-  | ChildDatabase
-  | Image
-  | ToDo
-  | Callout
-  | TableOfContents;
+export type TypeBlock = Paragraph | Heading | Code | Divider | ChildDatabase | Image | ToDo | Callout | TableOfContents;
 
 export type BlockType =
-  | "code"
-  | "heading_1"
-  | "heading_2"
-  | "heading_3"
-  | "paragraph"
-  | "quote"
-  | "divider"
-  | "toggle"
-  | "image"
-  | "to_do"
-  | "callout"
-  | "bulleted_list_item"
-  | "numbered_list_item"
-  | "child_database"
-  | "table_of_contents";
+  | 'code'
+  | 'heading_1'
+  | 'heading_2'
+  | 'heading_3'
+  | 'paragraph'
+  | 'quote'
+  | 'divider'
+  | 'toggle'
+  | 'image'
+  | 'to_do'
+  | 'callout'
+  | 'bulleted_list_item'
+  | 'numbered_list_item'
+  | 'child_database'
+  | 'table_of_contents';
 
 export enum Color {
-  Gray = "gray",
-  Blue = "blue",
-  Default = "black",
-  Green = "green",
-  Purple = "purple",
-  Pink = "pink",
-  Red = "red",
-  Brown = "brown",
-  Orange = "orange",
-  Yellow = "yellow",
+  Gray = 'gray',
+  Blue = 'blue',
+  Default = 'black',
+  Green = 'green',
+  Purple = 'purple',
+  Pink = 'pink',
+  Red = 'red',
+  Brown = 'brown',
+  Orange = 'orange',
+  Yellow = 'yellow',
 }
 
 export type Paragraph = {

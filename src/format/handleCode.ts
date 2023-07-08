@@ -1,4 +1,4 @@
-import { Code } from "../interfaces/blocks";
+import { Code } from '../interfaces/blocks';
 
 export function handleCode(data: Code) {
   const { language, rich_text } = data;
@@ -6,5 +6,5 @@ export function handleCode(data: Code) {
     const result = `\`\`\`${language}\n${rich_text[0].plain_text}\n\`\`\``;
     return result;
   }
-  return `\`\`\`${language || ""}\n\n\`\`\``;
+  return `\`\`\`${language || ''}\n\n\`\`\``;
 }

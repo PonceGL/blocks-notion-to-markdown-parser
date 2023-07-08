@@ -15,18 +15,18 @@ export type Parent = {
 };
 
 export type OptionsRequest = {
-  method: "GET" | "POST";
+  method: 'GET' | 'POST';
   url: string;
   headers: {
-    accept: "application/json";
-    "Notion-Version": string;
+    accept: 'application/json';
+    'Notion-Version': string;
   };
   data?: OptionsRequestFilters;
 };
 
 export type OptionsRequestFilters = {
   filter: {
-    property: "draft";
+    property: 'draft';
     checkbox: {
       equals: boolean;
     };
@@ -34,7 +34,7 @@ export type OptionsRequestFilters = {
   sorts: [
     {
       property: string;
-      direction: "descending" | "ascending";
-    }
+      direction: 'descending' | 'ascending';
+    },
   ];
 };

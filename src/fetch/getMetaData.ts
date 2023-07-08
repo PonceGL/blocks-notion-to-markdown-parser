@@ -1,12 +1,12 @@
-import { ENDPOINTS, NOTION_API_DATA } from "../api/config";
-import { metadataData } from "../format/metadata";
-import { ResponseMetadata } from "../interfaces/responseMetadata";
-import { ConectData, OptionsRequest } from "../types";
-import { checkDatabaseId } from "../utils/checkDatabaseId";
-import { checkKey } from "../utils/checkKey";
-import { fecthData } from "./fecthData";
+import { ENDPOINTS, NOTION_API_DATA } from '../api/config';
+import { metadataData } from '../format/metadata';
+import { ResponseMetadata } from '../interfaces/responseMetadata';
+import { ConectData, OptionsRequest } from '../types';
+import { checkDatabaseId } from '../utils/checkDatabaseId';
+import { checkKey } from '../utils/checkKey';
+import { fecthData } from './fecthData';
 
-type Props = Omit<ConectData, "options">;
+type Props = Omit<ConectData, 'options'>;
 
 export async function getMetaData({ notion_key, databaseId }: Props) {
   checkKey(notion_key);
@@ -15,11 +15,11 @@ export async function getMetaData({ notion_key, databaseId }: Props) {
   const url = ENDPOINTS.pageMetadata(databaseId);
 
   const options: OptionsRequest = {
-    method: "GET",
+    method: 'GET',
     url: url,
     headers: {
-      accept: "application/json",
-      "Notion-Version": NOTION_API_DATA.NotionVersion,
+      accept: 'application/json',
+      'Notion-Version': NOTION_API_DATA.NotionVersion,
     },
   };
 

@@ -1,20 +1,10 @@
-import { ItemDatabaseClean } from "../interfaces/databases";
-import { ResponseMetadata } from "../interfaces/responseMetadata";
+import { ItemDatabaseClean } from '../interfaces/databases';
+import { ResponseMetadata } from '../interfaces/responseMetadata';
 
 export function metadataData(result: ResponseMetadata): ItemDatabaseClean {
   const properties = result.properties;
 
-  const {
-    draft,
-    ogImage,
-    slug,
-    featured,
-    description,
-    author,
-    date,
-    tags,
-    title,
-  } = properties;
+  const { draft, ogImage, slug, featured, description, author, date, tags, title } = properties;
 
   const item = {
     id: result.id,

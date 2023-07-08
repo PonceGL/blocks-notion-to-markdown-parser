@@ -1,19 +1,13 @@
-import { ENDPOINTS, NOTION_API_DATA } from "../api/config";
-import { fecthData } from "./fecthData";
-import { databaseData } from "../format/databaseData";
-import {
-  DataBaseResponseNotionAPI,
-  ItemDatabaseClean,
-} from "../interfaces/databases";
-import { ConectData, OptionsRequest, OptionsRequestFilters } from "../types";
-import { checkDatabaseId } from "../utils/checkDatabaseId";
-import { checkKey } from "../utils/checkKey";
+import { ENDPOINTS, NOTION_API_DATA } from '../api/config';
+import { fecthData } from './fecthData';
+import { databaseData } from '../format/databaseData';
+import { DataBaseResponseNotionAPI, ItemDatabaseClean } from '../interfaces/databases';
+import { ConectData, OptionsRequest, OptionsRequestFilters } from '../types';
+import { checkDatabaseId } from '../utils/checkDatabaseId';
+import { checkKey } from '../utils/checkKey';
 
-type Props = Omit<ConectData, "options">;
-export async function gatDatabasesInfo({
-  notion_key,
-  databaseId,
-}: Props): Promise<ItemDatabaseClean[]> {
+type Props = Omit<ConectData, 'options'>;
+export async function gatDatabasesInfo({ notion_key, databaseId }: Props): Promise<ItemDatabaseClean[]> {
   checkKey(notion_key);
   checkDatabaseId(databaseId);
 
@@ -21,25 +15,25 @@ export async function gatDatabasesInfo({
 
   const filters: OptionsRequestFilters = {
     filter: {
-      property: "draft",
+      property: 'draft',
       checkbox: {
         equals: false,
       },
     },
     sorts: [
       {
-        property: "date",
-        direction: "descending",
+        property: 'date',
+        direction: 'descending',
       },
     ],
   };
 
   const options: OptionsRequest = {
-    method: "POST",
+    method: 'POST',
     url: url,
     headers: {
-      accept: "application/json",
-      "Notion-Version": NOTION_API_DATA.NotionVersion,
+      accept: 'application/json',
+      'Notion-Version': NOTION_API_DATA.NotionVersion,
     },
     data: filters,
   };

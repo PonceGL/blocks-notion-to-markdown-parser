@@ -1,13 +1,12 @@
-import { Block, BlockType, TypeBlock } from "../interfaces/blocks";
-import { handleCode } from "./handleCode";
+import { Block, BlockType, TypeBlock } from '../interfaces/blocks';
+import { handleCode } from './handleCode';
 
 function getRichText(type: BlockType, data: TypeBlock): string {
-  console.log("type => ", type);
-  if ("language" in data) {
+  if ('language' in data) {
     return handleCode(data);
   }
 
-  if ("rich_text" in data) {
+  if ('rich_text' in data) {
     if (Array.isArray(data.rich_text)) {
       if (data.rich_text.length > 0) {
         return data.rich_text[0].plain_text;
@@ -15,19 +14,19 @@ function getRichText(type: BlockType, data: TypeBlock): string {
     }
   }
 
-  if (type === "divider") {
-    return "---";
+  if (type === 'divider') {
+    return '---';
   }
 
-  if (type === "image") {
-    if ("external" in data) {
+  if (type === 'image') {
+    if ('external' in data) {
       return data.external.url;
     }
   }
 
   // child_database
 
-  return "\n";
+  return '\n';
 }
 
 export function blockData(blocks: Block[]) {

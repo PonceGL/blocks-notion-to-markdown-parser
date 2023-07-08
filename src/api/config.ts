@@ -5,5 +5,5 @@ export const ENDPOINTS = {
 };
 
 export const NOTION_API_DATA = {
-  NotionVersion: "2022-06-28",
+  NotionVersion: '2022-06-28',
 };

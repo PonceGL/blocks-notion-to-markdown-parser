@@ -1,4 +1,4 @@
-import { Parent, TedBy } from "../types";
+import { Parent, TedBy } from '../types';
 
 export type ItemDatabaseClean = {
   id: string;
@@ -55,7 +55,7 @@ export type Database = {
           };
           plain_text: string;
           href: null;
-        }
+        },
       ];
     };
     featured: {
@@ -83,7 +83,7 @@ export type Database = {
           };
           plain_text: string;
           href: null;
-        }
+        },
       ];
     };
     author: {
@@ -93,7 +93,7 @@ export type Database = {
         {
           object: string;
           id: string;
-        }
+        },
       ];
     };
     date: {
@@ -109,7 +109,7 @@ export type Database = {
           id: string;
           name: string;
           color: string;
-        }
+        },
       ];
     };
     title: {
@@ -132,7 +132,7 @@ export type Database = {
           };
           plain_text: string;
           href: null;
-        }
+        },
       ];
     };
   };

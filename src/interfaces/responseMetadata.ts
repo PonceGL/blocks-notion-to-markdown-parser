@@ -49,7 +49,7 @@ export type ResponseMetadata = {
           };
           plain_text: string;
           href: string | null;
-        }
+        },
       ];
     };
     featured: {
@@ -77,7 +77,7 @@ export type ResponseMetadata = {
           };
           plain_text: string;
           href: string | null;
-        }
+        },
       ];
     };
     author: {
@@ -87,7 +87,7 @@ export type ResponseMetadata = {
         {
           object: string;
           id: string;
-        }
+        },
       ];
     };
     date: {
@@ -103,7 +103,7 @@ export type ResponseMetadata = {
           id: string;
           name: string;
           color: string;
-        }
+        },
       ];
     };
     title: {
@@ -126,7 +126,7 @@ export type ResponseMetadata = {
           };
           plain_text: string;
           href: string | null;
-        }
+        },
       ];
     };
   };

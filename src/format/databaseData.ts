@@ -1,21 +1,11 @@
-import { Database, ItemDatabaseClean } from "../interfaces/databases";
+import { Database, ItemDatabaseClean } from '../interfaces/databases';
 
 export function databaseData(results: Database[]): ItemDatabaseClean[] {
   if (results.length > 0) {
     const items = results.map((result): ItemDatabaseClean => {
       const properties = result.properties;
 
-      const {
-        draft,
-        ogImage,
-        slug,
-        featured,
-        description,
-        author,
-        date,
-        tags,
-        title,
-      } = properties;
+      const { draft, ogImage, slug, featured, description, author, date, tags, title } = properties;
       const item = {
         id: result.id,
         draft: draft.checkbox,
