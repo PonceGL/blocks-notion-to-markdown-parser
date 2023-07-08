@@ -1,3 +1,3 @@
-export { gatDatabasesInfo } from './fetch/gatDatabases';
-export { getMetaData } from './fetch/getMetaData';
-export { getBlocks } from './fetch/getBlocks';
+export { gatDatabasesInfo, PropsDatabasesInfo } from './fetch/gatDatabases';
+export { getMetaData, PropsMetaData } from './fetch/getMetaData';
+export { getBlocks, PropsBlocks } from './fetch/getBlocks';

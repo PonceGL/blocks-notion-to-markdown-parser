@@ -7,8 +7,8 @@ import { checkDatabaseId } from '../utils/checkDatabaseId';
 import { checkKey } from '../utils/checkKey';
 import { ConectData, OptionsRequest, OptionsRequestFilters } from '../interfaces/fetch';
 
-type Props = Omit<ConectData, 'options'>;
-export async function gatDatabasesInfo({ notion_key, databaseId }: Props): Promise<ItemDatabaseClean[]> {
+export type PropsDatabasesInfo = Omit<ConectData, 'options'>;
+export async function gatDatabasesInfo({ notion_key, databaseId }: PropsDatabasesInfo): Promise<ItemDatabaseClean[]> {
   checkKey(notion_key);
   checkDatabaseId(databaseId);
 

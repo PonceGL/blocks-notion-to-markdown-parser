@@ -6,9 +6,9 @@ import { checkDatabaseId } from '../utils/checkDatabaseId';
 import { checkKey } from '../utils/checkKey';
 import { fecthData } from './fecthData';
 
-type Props = Omit<ConectData, 'options'>;
+export type PropsBlocks = Omit<ConectData, 'options'>;
 
-export async function getBlocks({ notion_key, databaseId }: Props) {
+export async function getBlocks({ notion_key, databaseId }: PropsBlocks) {
   checkKey(notion_key);
   checkDatabaseId(databaseId);
 
