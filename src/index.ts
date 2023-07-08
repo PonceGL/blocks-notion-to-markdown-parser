@@ -11,18 +11,25 @@ const idPost = "3861029c-d775-46bb-99d7-a6ef29c6085a";
   /* const listPost = await gatDatabasesInfo({
     notion_key: KEY,
     databaseId: DB,
-  }); */
-  /* const metadata = await getMetaData({
-    notion_key: KEY,
-    databaseId: idPost,
-  }); */
-  const metadata = await getBlocks({
-    notion_key: KEY,
-    databaseId: idPost,
   });
-
+  const metadata = await getMetaData({
+    notion_key: KEY,
+    databaseId: idPost,
+  }); */
+  /* const blocks = await getBlocks({
+    notion_key: KEY,
+    databaseId: idPost,
+  }); */
   /* console.log("====================================");
+  console.log("listPost");
+  console.log(listPost);
+  console.log("====================================");
+  console.log("====================================");
   console.log("metadata");
   console.log(metadata);
+  console.log("===================================="); */
+  /* console.log("====================================");
+  console.log("blocks");
+  console.log(blocks);
   console.log("===================================="); */
 })();

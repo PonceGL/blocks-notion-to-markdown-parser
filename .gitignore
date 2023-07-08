@@ -219,3 +219,9 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+
+# Local
+
+/src/api/*.json
+/src/api/*.md
