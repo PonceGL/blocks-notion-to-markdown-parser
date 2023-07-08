@@ -2,9 +2,10 @@ import { ENDPOINTS, NOTION_API_DATA } from '../api/config';
 import { fecthData } from './fecthData';
 import { databaseData } from '../format/databaseData';
 import { DataBaseResponseNotionAPI, ItemDatabaseClean } from '../interfaces/databases';
-import { ConectData, OptionsRequest, OptionsRequestFilters } from '../types';
+
 import { checkDatabaseId } from '../utils/checkDatabaseId';
 import { checkKey } from '../utils/checkKey';
+import { ConectData, OptionsRequest, OptionsRequestFilters } from '../interfaces/fetch';
 
 type Props = Omit<ConectData, 'options'>;
 export async function gatDatabasesInfo({ notion_key, databaseId }: Props): Promise<ItemDatabaseClean[]> {
@@ -34,6 +35,7 @@ export async function gatDatabasesInfo({ notion_key, databaseId }: Props): Promi
     headers: {
       accept: 'application/json',
       'Notion-Version': NOTION_API_DATA.NotionVersion,
+      'Access-Control-Allow-Origin': '*',
     },
     data: filters,
   };

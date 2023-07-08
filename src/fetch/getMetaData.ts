@@ -1,7 +1,7 @@
 import { ENDPOINTS, NOTION_API_DATA } from '../api/config';
 import { metadataData } from '../format/metadata';
+import { ConectData, OptionsRequest } from '../interfaces/fetch';
 import { ResponseMetadata } from '../interfaces/responseMetadata';
-import { ConectData, OptionsRequest } from '../types';
 import { checkDatabaseId } from '../utils/checkDatabaseId';
 import { checkKey } from '../utils/checkKey';
 import { fecthData } from './fecthData';

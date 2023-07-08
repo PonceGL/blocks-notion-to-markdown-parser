@@ -1,3 +1,5 @@
+import { AxiosRequestConfig } from 'axios';
+
 export type ConectData = {
   notion_key: string;
   databaseId: string;
@@ -14,7 +16,8 @@ export type Parent = {
   page_id: string;
 };
 
-export type OptionsRequest = {
+export type OptionsRequest = AxiosRequestConfig;
+/* export type OptionsRequest = {
   method: 'GET' | 'POST';
   url: string;
   headers: {
@@ -22,7 +25,7 @@ export type OptionsRequest = {
     'Notion-Version': string;
   };
   data?: OptionsRequestFilters;
-};
+}; */
 
 export type OptionsRequestFilters = {
   filter: {

@@ -1,4 +1,4 @@
-import { Parent, TedBy } from '../types';
+import { Parent, TedBy } from './fetch';
 
 export type ItemDatabaseClean = {
   id: string;

@@ -1,5 +1,6 @@
 import axios from 'axios';
-import { ConectData } from '../types';
+import { ConectData } from '../interfaces/fetch';
+
 
 type Props = Omit<ConectData, 'databaseId'>;
 export async function fecthData<T>({ notion_key, options }: Props): Promise<T> {
