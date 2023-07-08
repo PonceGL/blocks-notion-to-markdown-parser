@@ -17,15 +17,6 @@ export type Parent = {
 };
 
 export type OptionsRequest = AxiosRequestConfig;
-/* export type OptionsRequest = {
-  method: 'GET' | 'POST';
-  url: string;
-  headers: {
-    accept: 'application/json';
-    'Notion-Version': string;
-  };
-  data?: OptionsRequestFilters;
-}; */
 
 export type OptionsRequestFilters = {
   filter: {

@@ -1,4 +1,4 @@
-const MESSAGE_ERROR = {
+export const MESSAGE_ERROR = {
   NOT_DEFINED: 'notion_key is not defined',
   INCORRECT: 'incorrect notion_key',
 };
@@ -12,6 +12,10 @@ export function checkKey(key: string) {
 
   if (typeof key !== 'string') {
     throw new Error(MESSAGE_ERROR.INCORRECT);
+  }
+
+  if (key === '') {
+    throw new Error(MESSAGE_ERROR.NOT_DEFINED);
   }
 
   if (!key.startsWith('secret_')) {
