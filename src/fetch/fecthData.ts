@@ -1,12 +1,8 @@
 import axios from "axios";
-import { ConectData } from "./types";
-import { DataBaseResponseNotionAPI } from "./interfaces/databases";
+import { ConectData } from "../types";
 
 type Props = Omit<ConectData, "databaseId">;
-export async function fecthData({
-  notion_key,
-  options,
-}: Props): Promise<DataBaseResponseNotionAPI> {
+export async function fecthData<T>({ notion_key, options }: Props): Promise<T> {
   axios.defaults.headers.common["Authorization"] = `Bearer ${notion_key}`;
 
   try {

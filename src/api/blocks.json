@@ -1,1868 +1,1876 @@
-[
-  {
-    "object": "block",
-    "id": "33ab8da8-cba7-4aee-8b88-105876b12bce",
-    "parent": {
-      "type": "page_id",
-      "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
+{
+  "object": "list",
+  "results": [
+    {
+      "object": "block",
+      "id": "33ab8da8-cba7-4aee-8b88-105876b12bce",
+      "parent": {
+        "type": "page_id",
+        "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
+      },
+      "created_time": "2023-07-07T15:37:00.000Z",
+      "last_edited_time": "2023-07-07T16:29:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "La asincronía es la clave que permite a JavaScript realizar tareas sin bloquear la ejecución de otras operaciones. En otras palabras, es como tener una conversación fluida con tu navegador, donde ambos pueden realizar múltiples acciones sin interrupciones. Pero, ¿cómo es esto posible?",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "La asincronía es la clave que permite a JavaScript realizar tareas sin bloquear la ejecución de otras operaciones. En otras palabras, es como tener una conversación fluida con tu navegador, donde ambos pueden realizar múltiples acciones sin interrupciones. Pero, ¿cómo es esto posible?",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
     },
-    "created_time": "2023-07-07T15:37:00.000Z",
-    "last_edited_time": "2023-07-07T16:29:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
+    {
+      "object": "block",
+      "id": "aac7095b-95b4-44e2-8647-5536b46c6c76",
+      "parent": {
+        "type": "page_id",
+        "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
+      },
+      "created_time": "2023-07-07T16:28:00.000Z",
+      "last_edited_time": "2023-07-07T16:29:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Antes de explicar como funciona el modelo de JavaScript es importante entender algunos conceptos:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Antes de explicar como funciona el modelo de JavaScript es importante entender algunos conceptos:",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
     },
-    "last_edited_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
+    {
+      "object": "block",
+      "id": "3eb74480-a7ac-4662-9d02-b789211edec4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
+      },
+      "created_time": "2023-07-07T16:28:00.000Z",
+      "last_edited_time": "2023-07-07T16:28:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "has_children": false,
+      "archived": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Asincronía",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Asincronía",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
     },
-    "has_children": false,
-    "archived": false,
-    "type": "paragraph",
-    "paragraph": {
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "La asincronía es la clave que permite a JavaScript realizar tareas sin bloquear la ejecución de otras operaciones. En otras palabras, es como tener una conversación fluida con tu navegador, donde ambos pueden realizar múltiples acciones sin interrupciones. Pero, ¿cómo es esto posible?",
-            "link": null
+    {
+      "object": "block",
+      "id": "33bed499-bd78-4b34-b80a-3ef2865b443c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
+      },
+      "created_time": "2023-07-07T16:29:00.000Z",
+      "last_edited_time": "2023-07-07T16:29:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "e1c2cfc0-f4e6-4451-b5c1-a8ee3e8345b7",
+      "parent": {
+        "type": "page_id",
+        "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
+      },
+      "created_time": "2023-07-07T16:28:00.000Z",
+      "last_edited_time": "2023-07-07T17:28:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "has_children": false,
+      "archived": false,
+      "type": "quote",
+      "quote": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "La ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "La ",
+            "href": null
           },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
+          {
+            "type": "text",
+            "text": {
+              "content": "asincronía",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "green"
+            },
+            "plain_text": "asincronía",
+            "href": null
           },
-          "plain_text": "La asincronía es la clave que permite a JavaScript realizar tareas sin bloquear la ejecución de otras operaciones. En otras palabras, es como tener una conversación fluida con tu navegador, donde ambos pueden realizar múltiples acciones sin interrupciones. Pero, ¿cómo es esto posible?",
-          "href": null
+          {
+            "type": "text",
+            "text": {
+              "content": " es un concepto que se refiere a la falta de sincronización o simultaneidad en la ejecución de dos o más eventos o procesos. En lugar de llevar a cabo una secuencia lineal y ordenada, las operaciones asincrónicas pueden ocurrir de manera independiente y en diferentes momentos.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " es un concepto que se refiere a la falta de sincronización o simultaneidad en la ejecución de dos o más eventos o procesos. En lugar de llevar a cabo una secuencia lineal y ordenada, las operaciones asincrónicas pueden ocurrir de manera independiente y en diferentes momentos.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "4deb59df-0fc9-46ca-9a68-4ae59ef9c8d1",
+      "parent": {
+        "type": "page_id",
+        "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
+      },
+      "created_time": "2023-07-07T16:28:00.000Z",
+      "last_edited_time": "2023-07-07T16:29:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2827a33f-66af-4630-9050-c86acffaaa98",
+      "parent": {
+        "type": "page_id",
+        "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
+      },
+      "created_time": "2023-07-07T16:28:00.000Z",
+      "last_edited_time": "2023-07-07T18:08:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Esto",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "gray"
+            },
+            "plain_text": "Esto",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "permite",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "brown"
+            },
+            "plain_text": "permite",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " la ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " la ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "realización",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "orange"
+            },
+            "plain_text": "realización",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " de ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " de ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "tareas",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "yellow"
+            },
+            "plain_text": "tareas",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " de ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " de ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "forma",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "green"
+            },
+            "plain_text": "forma",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "paralela",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "blue"
+            },
+            "plain_text": "paralela",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ", sin ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ", sin ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "necesidad",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "purple"
+            },
+            "plain_text": "necesidad",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " de ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " de ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "esperar",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "pink"
+            },
+            "plain_text": "esperar",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " a ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " a ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "que",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "red"
+            },
+            "plain_text": "que",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " una acción se complete antes de iniciar otra. La asincronía se aplica en diversos ámbitos, como las comunicaciones, la electrónica y la informática, donde su implementación adecuada puede mejorar la eficiencia y la capacidad de respuesta en diferentes sistemas y aplicaciones.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " una acción se complete antes de iniciar otra. La asincronía se aplica en diversos ámbitos, como las comunicaciones, la electrónica y la informática, donde su implementación adecuada puede mejorar la eficiencia y la capacidad de respuesta en diferentes sistemas y aplicaciones.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "47b42dee-c9da-4a37-b646-33a93630427d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
+      },
+      "created_time": "2023-07-07T16:29:00.000Z",
+      "last_edited_time": "2023-07-07T16:29:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Pensemos en una llamada telefónica en comparación a un mensaje de texto. La llamada telefónica es comunicación sincrónica, porque el mensaje se recibe al mismo tiempo que se manda. Por otro lado, un mensaje de texto es comunicación asincrónica, pues es una acción que se ejecuta en un momento, pero solo finaliza cuando la otra parte lee el texto.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Pensemos en una llamada telefónica en comparación a un mensaje de texto. La llamada telefónica es comunicación sincrónica, porque el mensaje se recibe al mismo tiempo que se manda. Por otro lado, un mensaje de texto es comunicación asincrónica, pues es una acción que se ejecuta en un momento, pero solo finaliza cuando la otra parte lee el texto.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "e1a073bf-d987-4b08-b5b6-1a892ef123c4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
+      },
+      "created_time": "2023-07-07T16:29:00.000Z",
+      "last_edited_time": "2023-07-07T16:29:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "has_children": false,
+      "archived": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Single thread y Multi thread",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Single thread y Multi thread",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "b012f6e8-56ec-4f58-aead-ec46ee810ad7",
+      "parent": {
+        "type": "page_id",
+        "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
+      },
+      "created_time": "2023-07-07T16:29:00.000Z",
+      "last_edited_time": "2023-07-07T16:29:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "bfd4d428-c1c7-48e1-b21c-c9bf5d982e77",
+      "parent": {
+        "type": "page_id",
+        "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
+      },
+      "created_time": "2023-07-07T16:29:00.000Z",
+      "last_edited_time": "2023-07-07T16:29:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "has_children": false,
+      "archived": false,
+      "type": "quote",
+      "quote": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Cuando hablamos de \"single thread\" y \"multi thread\", nos referimos a la forma en que un sistema o programa organiza y gestiona la ejecución de tareas. En un entorno de \"single thread\" (un único hilo), las operaciones se realizan de manera secuencial, una tras otra, lo que significa que solo se puede llevar a cabo una tarea a la vez. Por otro lado, en un entorno de \"multi thread\" (múltiples hilos), el sistema tiene la capacidad de ejecutar múltiples tareas de forma simultánea, distribuyendo la carga de trabajo entre diferentes hilos de ejecución.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Cuando hablamos de \"single thread\" y \"multi thread\", nos referimos a la forma en que un sistema o programa organiza y gestiona la ejecución de tareas. En un entorno de \"single thread\" (un único hilo), las operaciones se realizan de manera secuencial, una tras otra, lo que significa que solo se puede llevar a cabo una tarea a la vez. Por otro lado, en un entorno de \"multi thread\" (múltiples hilos), el sistema tiene la capacidad de ejecutar múltiples tareas de forma simultánea, distribuyendo la carga de trabajo entre diferentes hilos de ejecución.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "ce394b16-30f0-4674-bdb5-3ec77ad14749",
+      "parent": {
+        "type": "page_id",
+        "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
+      },
+      "created_time": "2023-07-07T16:29:00.000Z",
+      "last_edited_time": "2023-07-07T16:29:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "b659019f-81b4-4003-a5ba-a908199cd21d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
+      },
+      "created_time": "2023-07-07T16:29:00.000Z",
+      "last_edited_time": "2023-07-07T16:30:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Esto permite un mejor aprovechamiento de los recursos y una mayor eficiencia en la realización de tareas complejas o concurrentes.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Esto permite un mejor aprovechamiento de los recursos y una mayor eficiencia en la realización de tareas complejas o concurrentes.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "4910e423-0912-4892-a08b-bedbd46fc89d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
+      },
+      "created_time": "2023-07-07T16:30:00.000Z",
+      "last_edited_time": "2023-07-07T16:30:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "has_children": false,
+      "archived": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "¿Para qué sirve la asincronía en JavaScript?",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "¿Para qué sirve la asincronía en JavaScript?",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "576c7734-2132-4951-876a-31a5e3489aeb",
+      "parent": {
+        "type": "page_id",
+        "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
+      },
+      "created_time": "2023-07-07T16:30:00.000Z",
+      "last_edited_time": "2023-07-07T16:31:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "La asincronía en JavaScript juega un papel crucial al convertirlo en un lenguaje de programación orientado a eventos. Esta programación basada en eventos nos permite preparar el código para que esté listo cuando ocurran ciertos eventos. Gracias a ello, nuestros proyectos se vuelven más complejos y receptivos, ya que pueden reaccionar adecuadamente ante diferentes situaciones. Si deseas profundizar en este concepto, te animamos a leer el post sobre ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "La asincronía en JavaScript juega un papel crucial al convertirlo en un lenguaje de programación orientado a eventos. Esta programación basada en eventos nos permite preparar el código para que esté listo cuando ocurran ciertos eventos. Gracias a ello, nuestros proyectos se vuelven más complejos y receptivos, ya que pueden reaccionar adecuadamente ante diferentes situaciones. Si deseas profundizar en este concepto, te animamos a leer el post sobre ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "JavaScript asíncrono en el Mozilla Developer Network.",
+              "link": {
+                "url": "https://developer.mozilla.org/es/docs/Learn/JavaScript/Asynchronous"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "blue"
+            },
+            "plain_text": "JavaScript asíncrono en el Mozilla Developer Network.",
+            "href": "https://developer.mozilla.org/es/docs/Learn/JavaScript/Asynchronous"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "573658b3-e860-482c-b92a-38b678c59cb5",
+      "parent": {
+        "type": "page_id",
+        "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
+      },
+      "created_time": "2023-07-07T16:30:00.000Z",
+      "last_edited_time": "2023-07-07T16:31:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "9644b6bd-ca78-41fc-a6ba-9d31156feb7a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
+      },
+      "created_time": "2023-07-07T16:30:00.000Z",
+      "last_edited_time": "2023-07-07T16:31:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "¿Quieres ver un ejemplo de cómo funciona el call stack en acción? Echemos un vistazo a este código:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "¿Quieres ver un ejemplo de cómo funciona el call stack en acción? Echemos un vistazo a este código:",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "34f100e8-46ab-41a2-a91a-a5a5736f6ccc",
+      "parent": {
+        "type": "page_id",
+        "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
+      },
+      "created_time": "2023-07-07T16:31:00.000Z",
+      "last_edited_time": "2023-07-07T16:31:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "8a953823-b208-4bb0-8a2f-e5e27bee4c5b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
+      },
+      "created_time": "2023-07-07T16:31:00.000Z",
+      "last_edited_time": "2023-07-07T16:31:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "has_children": false,
+      "archived": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "function add(a, b) {\n    return a + b;\n}\n\nfunction calculate(a, b) {\n    return add(a, b) / 2;\n}\n\nconst x = calculate(10, 20);",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "function add(a, b) {\n    return a + b;\n}\n\nfunction calculate(a, b) {\n    return add(a, b) / 2;\n}\n\nconst x = calculate(10, 20);",
+            "href": null
+          }
+        ],
+        "language": "javascript"
+      }
+    },
+    {
+      "object": "block",
+      "id": "25b9ce07-1384-4957-995c-38c0ca7b4687",
+      "parent": {
+        "type": "page_id",
+        "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
+      },
+      "created_time": "2023-07-07T16:31:00.000Z",
+      "last_edited_time": "2023-07-07T16:31:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "300954e1-69f1-4e85-83b4-1f32c974dbbb",
+      "parent": {
+        "type": "page_id",
+        "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
+      },
+      "created_time": "2023-07-07T16:32:00.000Z",
+      "last_edited_time": "2023-07-07T16:32:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Así que cuando ejecutas un script, el motor de JavaScript lo procesa de arriba hacia abajo, línea por línea, lo que significa que es ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Así que cuando ejecutas un script, el motor de JavaScript lo procesa de arriba hacia abajo, línea por línea, lo que significa que es ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "síncrono",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "síncrono",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ".",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ".",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "056eaaba-f832-4bcc-aa86-87cf729f0a55",
+      "parent": {
+        "type": "page_id",
+        "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
+      },
+      "created_time": "2023-07-07T16:32:00.000Z",
+      "last_edited_time": "2023-07-07T16:32:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "¿Entendiste todo eso? 😳 ¡No te preocupes si no, es un poco complicado! Pero es importante saber cómo funciona el call stack para poder hacer cosas increíbles con tu código. ¡Seguiremos aprendiendo juntos!",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "¿Entendiste todo eso? 😳 ¡No te preocupes si no, es un poco complicado! Pero es importante saber cómo funciona el call stack para poder hacer cosas increíbles con tu código. ¡Seguiremos aprendiendo juntos!",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "d4eae25d-5733-4377-970b-3158ed333479",
+      "parent": {
+        "type": "page_id",
+        "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
+      },
+      "created_time": "2023-07-07T18:00:00.000Z",
+      "last_edited_time": "2023-07-07T18:00:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "has_children": false,
+      "archived": false,
+      "type": "heading_1",
+      "heading_1": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "h1",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "h1",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "bb6843fb-88de-4df4-b403-45f7da7044c2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
+      },
+      "created_time": "2023-07-07T18:00:00.000Z",
+      "last_edited_time": "2023-07-07T18:00:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "has_children": false,
+      "archived": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "h2",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "h2",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "ba13c638-3a3b-4e08-bd5a-bde6b0cb79ff",
+      "parent": {
+        "type": "page_id",
+        "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
+      },
+      "created_time": "2023-07-07T18:00:00.000Z",
+      "last_edited_time": "2023-07-07T18:00:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "has_children": false,
+      "archived": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "h3",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "h3",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "ed777ffa-ad23-4584-a332-27e32329220c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
+      },
+      "created_time": "2023-07-07T18:00:00.000Z",
+      "last_edited_time": "2023-07-07T18:00:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "has_children": false,
+      "archived": false,
+      "type": "divider",
+      "divider": {}
+    },
+    {
+      "object": "block",
+      "id": "e137f67a-a1ce-429a-bb13-49cd7bd36afb",
+      "parent": {
+        "type": "page_id",
+        "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
+      },
+      "created_time": "2023-07-07T18:01:00.000Z",
+      "last_edited_time": "2023-07-07T18:01:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "has_children": false,
+      "archived": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "bullet list uno",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "bullet list uno",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "309bc7f5-42bf-4f99-89d9-adc29a998a68",
+      "parent": {
+        "type": "page_id",
+        "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
+      },
+      "created_time": "2023-07-07T18:01:00.000Z",
+      "last_edited_time": "2023-07-07T18:01:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "has_children": false,
+      "archived": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "bullet list dos",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "bullet list dos",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "0c5ad40d-cb34-4614-b15d-07abb86a8b9b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
+      },
+      "created_time": "2023-07-07T18:01:00.000Z",
+      "last_edited_time": "2023-07-07T18:01:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "has_children": false,
+      "archived": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "bullet list tres",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "bullet list tres",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "3ae657f0-bd79-4cf3-81ae-c8b6b8c3996b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
+      },
+      "created_time": "2023-07-07T18:01:00.000Z",
+      "last_edited_time": "2023-07-07T18:01:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "has_children": false,
+      "archived": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "number list uno",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "number list uno",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "24fb440c-4d11-49c7-92c6-dd587f669ea7",
+      "parent": {
+        "type": "page_id",
+        "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
+      },
+      "created_time": "2023-07-07T18:01:00.000Z",
+      "last_edited_time": "2023-07-07T18:01:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "has_children": false,
+      "archived": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "number list dos",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "number list dos",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "458eec9a-d4fd-48e8-986e-23665b804746",
+      "parent": {
+        "type": "page_id",
+        "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
+      },
+      "created_time": "2023-07-07T18:01:00.000Z",
+      "last_edited_time": "2023-07-07T18:02:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "has_children": false,
+      "archived": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "number list tres",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "number list tres",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "9d1e303a-30c9-4f29-a66e-9b0f6a2cce25",
+      "parent": {
+        "type": "page_id",
+        "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
+      },
+      "created_time": "2023-07-07T18:02:00.000Z",
+      "last_edited_time": "2023-07-07T18:03:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "has_children": true,
+      "archived": false,
+      "type": "toggle",
+      "toggle": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Toggle List name",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Toggle List name",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "7f81b476-186c-4606-a21c-55d70a29e31f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
+      },
+      "created_time": "2023-07-07T18:03:00.000Z",
+      "last_edited_time": "2023-07-07T18:04:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "has_children": false,
+      "archived": false,
+      "type": "child_database",
+      "child_database": {
+        "title": "This is a table"
+      }
+    },
+    {
+      "object": "block",
+      "id": "51bbaa48-aafe-4242-bf70-2871bf19cc26",
+      "parent": {
+        "type": "page_id",
+        "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
+      },
+      "created_time": "2023-07-07T18:05:00.000Z",
+      "last_edited_time": "2023-07-07T18:05:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "has_children": false,
+      "archived": false,
+      "type": "image",
+      "image": {
+        "caption": [],
+        "type": "external",
+        "external": {
+          "url": "https://images.unsplash.com/photo-1604537529428-15bcbeecfe4d?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb"
         }
-      ],
-      "color": "default"
-    }
-  },
-  {
-    "object": "block",
-    "id": "aac7095b-95b4-44e2-8647-5536b46c6c76",
-    "parent": {
-      "type": "page_id",
-      "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
+      }
     },
-    "created_time": "2023-07-07T16:28:00.000Z",
-    "last_edited_time": "2023-07-07T16:29:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
+    {
+      "object": "block",
+      "id": "bcf011b5-9b13-422f-88fc-69ea7dcd6efb",
+      "parent": {
+        "type": "page_id",
+        "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
+      },
+      "created_time": "2023-07-07T18:08:00.000Z",
+      "last_edited_time": "2023-07-07T18:08:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "has_children": false,
+      "archived": false,
+      "type": "to_do",
+      "to_do": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "todo list",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "todo list",
+            "href": null
+          }
+        ],
+        "checked": false,
+        "color": "default"
+      }
     },
-    "last_edited_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
+    {
+      "object": "block",
+      "id": "200daf43-d3ff-4e8f-a107-edc2627f8969",
+      "parent": {
+        "type": "page_id",
+        "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
+      },
+      "created_time": "2023-07-07T18:08:00.000Z",
+      "last_edited_time": "2023-07-07T18:08:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "has_children": false,
+      "archived": false,
+      "type": "to_do",
+      "to_do": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "another todo check",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "another todo check",
+            "href": null
+          }
+        ],
+        "checked": false,
+        "color": "default"
+      }
     },
-    "has_children": false,
-    "archived": false,
-    "type": "paragraph",
-    "paragraph": {
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "Antes de explicar como funciona el modelo de JavaScript es importante entender algunos conceptos:",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "Antes de explicar como funciona el modelo de JavaScript es importante entender algunos conceptos:",
-          "href": null
-        }
-      ],
-      "color": "default"
-    }
-  },
-  {
-    "object": "block",
-    "id": "3eb74480-a7ac-4662-9d02-b789211edec4",
-    "parent": {
-      "type": "page_id",
-      "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
-    },
-    "created_time": "2023-07-07T16:28:00.000Z",
-    "last_edited_time": "2023-07-07T16:28:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "last_edited_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "has_children": false,
-    "archived": false,
-    "type": "heading_3",
-    "heading_3": {
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "Asincronía",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "Asincronía",
-          "href": null
-        }
-      ],
-      "is_toggleable": false,
-      "color": "default"
-    }
-  },
-  {
-    "object": "block",
-    "id": "33bed499-bd78-4b34-b80a-3ef2865b443c",
-    "parent": {
-      "type": "page_id",
-      "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
-    },
-    "created_time": "2023-07-07T16:29:00.000Z",
-    "last_edited_time": "2023-07-07T16:29:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "last_edited_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "has_children": false,
-    "archived": false,
-    "type": "paragraph",
-    "paragraph": {
-      "rich_text": [],
-      "color": "default"
-    }
-  },
-  {
-    "object": "block",
-    "id": "e1c2cfc0-f4e6-4451-b5c1-a8ee3e8345b7",
-    "parent": {
-      "type": "page_id",
-      "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
-    },
-    "created_time": "2023-07-07T16:28:00.000Z",
-    "last_edited_time": "2023-07-07T17:28:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "last_edited_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "has_children": false,
-    "archived": false,
-    "type": "quote",
-    "quote": {
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "La ",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": true,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "La ",
-          "href": null
+    {
+      "object": "block",
+      "id": "94863922-6965-4b05-b23b-a0ead8beef27",
+      "parent": {
+        "type": "page_id",
+        "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
+      },
+      "created_time": "2023-07-07T18:08:00.000Z",
+      "last_edited_time": "2023-07-07T18:08:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "has_children": false,
+      "archived": false,
+      "type": "callout",
+      "callout": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "this is a callout",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "this is a callout",
+            "href": null
+          }
+        ],
+        "icon": {
+          "type": "emoji",
+          "emoji": "🚧"
         },
-        {
-          "type": "text",
-          "text": {
-            "content": "asincronía",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": true,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "green"
-          },
-          "plain_text": "asincronía",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": " es un concepto que se refiere a la falta de sincronización o simultaneidad en la ejecución de dos o más eventos o procesos. En lugar de llevar a cabo una secuencia lineal y ordenada, las operaciones asincrónicas pueden ocurrir de manera independiente y en diferentes momentos.",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": true,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": " es un concepto que se refiere a la falta de sincronización o simultaneidad en la ejecución de dos o más eventos o procesos. En lugar de llevar a cabo una secuencia lineal y ordenada, las operaciones asincrónicas pueden ocurrir de manera independiente y en diferentes momentos.",
-          "href": null
-        }
-      ],
-      "color": "default"
-    }
-  },
-  {
-    "object": "block",
-    "id": "4deb59df-0fc9-46ca-9a68-4ae59ef9c8d1",
-    "parent": {
-      "type": "page_id",
-      "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
-    },
-    "created_time": "2023-07-07T16:28:00.000Z",
-    "last_edited_time": "2023-07-07T16:29:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "last_edited_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "has_children": false,
-    "archived": false,
-    "type": "paragraph",
-    "paragraph": {
-      "rich_text": [],
-      "color": "default"
-    }
-  },
-  {
-    "object": "block",
-    "id": "2827a33f-66af-4630-9050-c86acffaaa98",
-    "parent": {
-      "type": "page_id",
-      "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
-    },
-    "created_time": "2023-07-07T16:28:00.000Z",
-    "last_edited_time": "2023-07-07T18:08:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "last_edited_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "has_children": false,
-    "archived": false,
-    "type": "paragraph",
-    "paragraph": {
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "Esto",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "gray"
-          },
-          "plain_text": "Esto",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": " ",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": " ",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": "permite",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "brown"
-          },
-          "plain_text": "permite",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": " la ",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": " la ",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": "realización",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "orange"
-          },
-          "plain_text": "realización",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": " de ",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": " de ",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": "tareas",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "yellow"
-          },
-          "plain_text": "tareas",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": " de ",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": " de ",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": "forma",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "green"
-          },
-          "plain_text": "forma",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": " ",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": " ",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": "paralela",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "blue"
-          },
-          "plain_text": "paralela",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": ", sin ",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": ", sin ",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": "necesidad",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "purple"
-          },
-          "plain_text": "necesidad",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": " de ",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": " de ",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": "esperar",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "pink"
-          },
-          "plain_text": "esperar",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": " a ",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": " a ",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": "que",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "red"
-          },
-          "plain_text": "que",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": " una acción se complete antes de iniciar otra. La asincronía se aplica en diversos ámbitos, como las comunicaciones, la electrónica y la informática, donde su implementación adecuada puede mejorar la eficiencia y la capacidad de respuesta en diferentes sistemas y aplicaciones.",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": " una acción se complete antes de iniciar otra. La asincronía se aplica en diversos ámbitos, como las comunicaciones, la electrónica y la informática, donde su implementación adecuada puede mejorar la eficiencia y la capacidad de respuesta en diferentes sistemas y aplicaciones.",
-          "href": null
-        }
-      ],
-      "color": "default"
-    }
-  },
-  {
-    "object": "block",
-    "id": "47b42dee-c9da-4a37-b646-33a93630427d",
-    "parent": {
-      "type": "page_id",
-      "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
-    },
-    "created_time": "2023-07-07T16:29:00.000Z",
-    "last_edited_time": "2023-07-07T16:29:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "last_edited_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "has_children": false,
-    "archived": false,
-    "type": "paragraph",
-    "paragraph": {
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "Pensemos en una llamada telefónica en comparación a un mensaje de texto. La llamada telefónica es comunicación sincrónica, porque el mensaje se recibe al mismo tiempo que se manda. Por otro lado, un mensaje de texto es comunicación asincrónica, pues es una acción que se ejecuta en un momento, pero solo finaliza cuando la otra parte lee el texto.",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "Pensemos en una llamada telefónica en comparación a un mensaje de texto. La llamada telefónica es comunicación sincrónica, porque el mensaje se recibe al mismo tiempo que se manda. Por otro lado, un mensaje de texto es comunicación asincrónica, pues es una acción que se ejecuta en un momento, pero solo finaliza cuando la otra parte lee el texto.",
-          "href": null
-        }
-      ],
-      "color": "default"
-    }
-  },
-  {
-    "object": "block",
-    "id": "e1a073bf-d987-4b08-b5b6-1a892ef123c4",
-    "parent": {
-      "type": "page_id",
-      "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
-    },
-    "created_time": "2023-07-07T16:29:00.000Z",
-    "last_edited_time": "2023-07-07T16:29:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "last_edited_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "has_children": false,
-    "archived": false,
-    "type": "heading_3",
-    "heading_3": {
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "Single thread y Multi thread",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "Single thread y Multi thread",
-          "href": null
-        }
-      ],
-      "is_toggleable": false,
-      "color": "default"
-    }
-  },
-  {
-    "object": "block",
-    "id": "b012f6e8-56ec-4f58-aead-ec46ee810ad7",
-    "parent": {
-      "type": "page_id",
-      "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
-    },
-    "created_time": "2023-07-07T16:29:00.000Z",
-    "last_edited_time": "2023-07-07T16:29:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "last_edited_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "has_children": false,
-    "archived": false,
-    "type": "paragraph",
-    "paragraph": {
-      "rich_text": [],
-      "color": "default"
-    }
-  },
-  {
-    "object": "block",
-    "id": "bfd4d428-c1c7-48e1-b21c-c9bf5d982e77",
-    "parent": {
-      "type": "page_id",
-      "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
-    },
-    "created_time": "2023-07-07T16:29:00.000Z",
-    "last_edited_time": "2023-07-07T16:29:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "last_edited_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "has_children": false,
-    "archived": false,
-    "type": "quote",
-    "quote": {
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "Cuando hablamos de \"single thread\" y \"multi thread\", nos referimos a la forma en que un sistema o programa organiza y gestiona la ejecución de tareas. En un entorno de \"single thread\" (un único hilo), las operaciones se realizan de manera secuencial, una tras otra, lo que significa que solo se puede llevar a cabo una tarea a la vez. Por otro lado, en un entorno de \"multi thread\" (múltiples hilos), el sistema tiene la capacidad de ejecutar múltiples tareas de forma simultánea, distribuyendo la carga de trabajo entre diferentes hilos de ejecución.",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": true,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "Cuando hablamos de \"single thread\" y \"multi thread\", nos referimos a la forma en que un sistema o programa organiza y gestiona la ejecución de tareas. En un entorno de \"single thread\" (un único hilo), las operaciones se realizan de manera secuencial, una tras otra, lo que significa que solo se puede llevar a cabo una tarea a la vez. Por otro lado, en un entorno de \"multi thread\" (múltiples hilos), el sistema tiene la capacidad de ejecutar múltiples tareas de forma simultánea, distribuyendo la carga de trabajo entre diferentes hilos de ejecución.",
-          "href": null
-        }
-      ],
-      "color": "default"
-    }
-  },
-  {
-    "object": "block",
-    "id": "ce394b16-30f0-4674-bdb5-3ec77ad14749",
-    "parent": {
-      "type": "page_id",
-      "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
-    },
-    "created_time": "2023-07-07T16:29:00.000Z",
-    "last_edited_time": "2023-07-07T16:29:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "last_edited_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "has_children": false,
-    "archived": false,
-    "type": "paragraph",
-    "paragraph": {
-      "rich_text": [],
-      "color": "default"
-    }
-  },
-  {
-    "object": "block",
-    "id": "b659019f-81b4-4003-a5ba-a908199cd21d",
-    "parent": {
-      "type": "page_id",
-      "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
-    },
-    "created_time": "2023-07-07T16:29:00.000Z",
-    "last_edited_time": "2023-07-07T16:30:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "last_edited_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "has_children": false,
-    "archived": false,
-    "type": "paragraph",
-    "paragraph": {
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "Esto permite un mejor aprovechamiento de los recursos y una mayor eficiencia en la realización de tareas complejas o concurrentes.",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "Esto permite un mejor aprovechamiento de los recursos y una mayor eficiencia en la realización de tareas complejas o concurrentes.",
-          "href": null
-        }
-      ],
-      "color": "default"
-    }
-  },
-  {
-    "object": "block",
-    "id": "4910e423-0912-4892-a08b-bedbd46fc89d",
-    "parent": {
-      "type": "page_id",
-      "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
-    },
-    "created_time": "2023-07-07T16:30:00.000Z",
-    "last_edited_time": "2023-07-07T16:30:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "last_edited_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "has_children": false,
-    "archived": false,
-    "type": "heading_3",
-    "heading_3": {
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "¿Para qué sirve la asincronía en JavaScript?",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "¿Para qué sirve la asincronía en JavaScript?",
-          "href": null
-        }
-      ],
-      "is_toggleable": false,
-      "color": "default"
-    }
-  },
-  {
-    "object": "block",
-    "id": "576c7734-2132-4951-876a-31a5e3489aeb",
-    "parent": {
-      "type": "page_id",
-      "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
-    },
-    "created_time": "2023-07-07T16:30:00.000Z",
-    "last_edited_time": "2023-07-07T16:31:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "last_edited_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "has_children": false,
-    "archived": false,
-    "type": "paragraph",
-    "paragraph": {
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "La asincronía en JavaScript juega un papel crucial al convertirlo en un lenguaje de programación orientado a eventos. Esta programación basada en eventos nos permite preparar el código para que esté listo cuando ocurran ciertos eventos. Gracias a ello, nuestros proyectos se vuelven más complejos y receptivos, ya que pueden reaccionar adecuadamente ante diferentes situaciones. Si deseas profundizar en este concepto, te animamos a leer el post sobre ",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "La asincronía en JavaScript juega un papel crucial al convertirlo en un lenguaje de programación orientado a eventos. Esta programación basada en eventos nos permite preparar el código para que esté listo cuando ocurran ciertos eventos. Gracias a ello, nuestros proyectos se vuelven más complejos y receptivos, ya que pueden reaccionar adecuadamente ante diferentes situaciones. Si deseas profundizar en este concepto, te animamos a leer el post sobre ",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": "JavaScript asíncrono en el Mozilla Developer Network.",
-            "link": {
-              "url": "https://developer.mozilla.org/es/docs/Learn/JavaScript/Asynchronous"
-            }
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "blue"
-          },
-          "plain_text": "JavaScript asíncrono en el Mozilla Developer Network.",
-          "href": "https://developer.mozilla.org/es/docs/Learn/JavaScript/Asynchronous"
-        }
-      ],
-      "color": "default"
-    }
-  },
-  {
-    "object": "block",
-    "id": "573658b3-e860-482c-b92a-38b678c59cb5",
-    "parent": {
-      "type": "page_id",
-      "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
-    },
-    "created_time": "2023-07-07T16:30:00.000Z",
-    "last_edited_time": "2023-07-07T16:31:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "last_edited_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "has_children": false,
-    "archived": false,
-    "type": "paragraph",
-    "paragraph": {
-      "rich_text": [],
-      "color": "default"
-    }
-  },
-  {
-    "object": "block",
-    "id": "9644b6bd-ca78-41fc-a6ba-9d31156feb7a",
-    "parent": {
-      "type": "page_id",
-      "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
-    },
-    "created_time": "2023-07-07T16:30:00.000Z",
-    "last_edited_time": "2023-07-07T16:31:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "last_edited_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "has_children": false,
-    "archived": false,
-    "type": "paragraph",
-    "paragraph": {
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "¿Quieres ver un ejemplo de cómo funciona el call stack en acción? Echemos un vistazo a este código:",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "¿Quieres ver un ejemplo de cómo funciona el call stack en acción? Echemos un vistazo a este código:",
-          "href": null
-        }
-      ],
-      "color": "default"
-    }
-  },
-  {
-    "object": "block",
-    "id": "34f100e8-46ab-41a2-a91a-a5a5736f6ccc",
-    "parent": {
-      "type": "page_id",
-      "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
-    },
-    "created_time": "2023-07-07T16:31:00.000Z",
-    "last_edited_time": "2023-07-07T16:31:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "last_edited_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "has_children": false,
-    "archived": false,
-    "type": "paragraph",
-    "paragraph": {
-      "rich_text": [],
-      "color": "default"
-    }
-  },
-  {
-    "object": "block",
-    "id": "8a953823-b208-4bb0-8a2f-e5e27bee4c5b",
-    "parent": {
-      "type": "page_id",
-      "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
-    },
-    "created_time": "2023-07-07T16:31:00.000Z",
-    "last_edited_time": "2023-07-07T16:31:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "last_edited_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "has_children": false,
-    "archived": false,
-    "type": "code",
-    "code": {
-      "caption": [],
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "function add(a, b) {\n    return a + b;\n}\n\nfunction calculate(a, b) {\n    return add(a, b) / 2;\n}\n\nconst x = calculate(10, 20);",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "function add(a, b) {\n    return a + b;\n}\n\nfunction calculate(a, b) {\n    return add(a, b) / 2;\n}\n\nconst x = calculate(10, 20);",
-          "href": null
-        }
-      ],
-      "language": "javascript"
-    }
-  },
-  {
-    "object": "block",
-    "id": "25b9ce07-1384-4957-995c-38c0ca7b4687",
-    "parent": {
-      "type": "page_id",
-      "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
-    },
-    "created_time": "2023-07-07T16:31:00.000Z",
-    "last_edited_time": "2023-07-07T16:31:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "last_edited_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "has_children": false,
-    "archived": false,
-    "type": "paragraph",
-    "paragraph": {
-      "rich_text": [],
-      "color": "default"
-    }
-  },
-  {
-    "object": "block",
-    "id": "300954e1-69f1-4e85-83b4-1f32c974dbbb",
-    "parent": {
-      "type": "page_id",
-      "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
-    },
-    "created_time": "2023-07-07T16:32:00.000Z",
-    "last_edited_time": "2023-07-07T16:32:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "last_edited_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "has_children": false,
-    "archived": false,
-    "type": "paragraph",
-    "paragraph": {
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "Así que cuando ejecutas un script, el motor de JavaScript lo procesa de arriba hacia abajo, línea por línea, lo que significa que es ",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "Así que cuando ejecutas un script, el motor de JavaScript lo procesa de arriba hacia abajo, línea por línea, lo que significa que es ",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": "síncrono",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": true,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "síncrono",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": ".",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": ".",
-          "href": null
-        }
-      ],
-      "color": "default"
-    }
-  },
-  {
-    "object": "block",
-    "id": "056eaaba-f832-4bcc-aa86-87cf729f0a55",
-    "parent": {
-      "type": "page_id",
-      "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
-    },
-    "created_time": "2023-07-07T16:32:00.000Z",
-    "last_edited_time": "2023-07-07T16:32:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "last_edited_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "has_children": false,
-    "archived": false,
-    "type": "paragraph",
-    "paragraph": {
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "¿Entendiste todo eso? 😳 ¡No te preocupes si no, es un poco complicado! Pero es importante saber cómo funciona el call stack para poder hacer cosas increíbles con tu código. ¡Seguiremos aprendiendo juntos!",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "¿Entendiste todo eso? 😳 ¡No te preocupes si no, es un poco complicado! Pero es importante saber cómo funciona el call stack para poder hacer cosas increíbles con tu código. ¡Seguiremos aprendiendo juntos!",
-          "href": null
-        }
-      ],
-      "color": "default"
-    }
-  },
-  {
-    "object": "block",
-    "id": "d4eae25d-5733-4377-970b-3158ed333479",
-    "parent": {
-      "type": "page_id",
-      "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
-    },
-    "created_time": "2023-07-07T18:00:00.000Z",
-    "last_edited_time": "2023-07-07T18:00:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "last_edited_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "has_children": false,
-    "archived": false,
-    "type": "heading_1",
-    "heading_1": {
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "h1",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "h1",
-          "href": null
-        }
-      ],
-      "is_toggleable": false,
-      "color": "default"
-    }
-  },
-  {
-    "object": "block",
-    "id": "bb6843fb-88de-4df4-b403-45f7da7044c2",
-    "parent": {
-      "type": "page_id",
-      "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
-    },
-    "created_time": "2023-07-07T18:00:00.000Z",
-    "last_edited_time": "2023-07-07T18:00:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "last_edited_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "has_children": false,
-    "archived": false,
-    "type": "heading_2",
-    "heading_2": {
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "h2",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "h2",
-          "href": null
-        }
-      ],
-      "is_toggleable": false,
-      "color": "default"
-    }
-  },
-  {
-    "object": "block",
-    "id": "ba13c638-3a3b-4e08-bd5a-bde6b0cb79ff",
-    "parent": {
-      "type": "page_id",
-      "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
-    },
-    "created_time": "2023-07-07T18:00:00.000Z",
-    "last_edited_time": "2023-07-07T18:00:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "last_edited_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "has_children": false,
-    "archived": false,
-    "type": "heading_3",
-    "heading_3": {
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "h3",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "h3",
-          "href": null
-        }
-      ],
-      "is_toggleable": false,
-      "color": "default"
-    }
-  },
-  {
-    "object": "block",
-    "id": "ed777ffa-ad23-4584-a332-27e32329220c",
-    "parent": {
-      "type": "page_id",
-      "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
-    },
-    "created_time": "2023-07-07T18:00:00.000Z",
-    "last_edited_time": "2023-07-07T18:00:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "last_edited_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "has_children": false,
-    "archived": false,
-    "type": "divider",
-    "divider": {}
-  },
-  {
-    "object": "block",
-    "id": "e137f67a-a1ce-429a-bb13-49cd7bd36afb",
-    "parent": {
-      "type": "page_id",
-      "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
-    },
-    "created_time": "2023-07-07T18:01:00.000Z",
-    "last_edited_time": "2023-07-07T18:01:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "last_edited_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "has_children": false,
-    "archived": false,
-    "type": "bulleted_list_item",
-    "bulleted_list_item": {
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "bullet list uno",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "bullet list uno",
-          "href": null
-        }
-      ],
-      "color": "default"
-    }
-  },
-  {
-    "object": "block",
-    "id": "309bc7f5-42bf-4f99-89d9-adc29a998a68",
-    "parent": {
-      "type": "page_id",
-      "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
-    },
-    "created_time": "2023-07-07T18:01:00.000Z",
-    "last_edited_time": "2023-07-07T18:01:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "last_edited_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "has_children": false,
-    "archived": false,
-    "type": "bulleted_list_item",
-    "bulleted_list_item": {
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "bullet list dos",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "bullet list dos",
-          "href": null
-        }
-      ],
-      "color": "default"
-    }
-  },
-  {
-    "object": "block",
-    "id": "0c5ad40d-cb34-4614-b15d-07abb86a8b9b",
-    "parent": {
-      "type": "page_id",
-      "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
-    },
-    "created_time": "2023-07-07T18:01:00.000Z",
-    "last_edited_time": "2023-07-07T18:01:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "last_edited_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "has_children": false,
-    "archived": false,
-    "type": "bulleted_list_item",
-    "bulleted_list_item": {
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "bullet list tres",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "bullet list tres",
-          "href": null
-        }
-      ],
-      "color": "default"
-    }
-  },
-  {
-    "object": "block",
-    "id": "3ae657f0-bd79-4cf3-81ae-c8b6b8c3996b",
-    "parent": {
-      "type": "page_id",
-      "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
-    },
-    "created_time": "2023-07-07T18:01:00.000Z",
-    "last_edited_time": "2023-07-07T18:01:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "last_edited_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "has_children": false,
-    "archived": false,
-    "type": "numbered_list_item",
-    "numbered_list_item": {
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "number list uno",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "number list uno",
-          "href": null
-        }
-      ],
-      "color": "default"
-    }
-  },
-  {
-    "object": "block",
-    "id": "24fb440c-4d11-49c7-92c6-dd587f669ea7",
-    "parent": {
-      "type": "page_id",
-      "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
-    },
-    "created_time": "2023-07-07T18:01:00.000Z",
-    "last_edited_time": "2023-07-07T18:01:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "last_edited_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "has_children": false,
-    "archived": false,
-    "type": "numbered_list_item",
-    "numbered_list_item": {
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "number list dos",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "number list dos",
-          "href": null
-        }
-      ],
-      "color": "default"
-    }
-  },
-  {
-    "object": "block",
-    "id": "458eec9a-d4fd-48e8-986e-23665b804746",
-    "parent": {
-      "type": "page_id",
-      "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
-    },
-    "created_time": "2023-07-07T18:01:00.000Z",
-    "last_edited_time": "2023-07-07T18:02:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "last_edited_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "has_children": false,
-    "archived": false,
-    "type": "numbered_list_item",
-    "numbered_list_item": {
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "number list tres",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "number list tres",
-          "href": null
-        }
-      ],
-      "color": "default"
-    }
-  },
-  {
-    "object": "block",
-    "id": "9d1e303a-30c9-4f29-a66e-9b0f6a2cce25",
-    "parent": {
-      "type": "page_id",
-      "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
-    },
-    "created_time": "2023-07-07T18:02:00.000Z",
-    "last_edited_time": "2023-07-07T18:03:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "last_edited_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "has_children": true,
-    "archived": false,
-    "type": "toggle",
-    "toggle": {
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "Toggle List name",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "Toggle List name",
-          "href": null
-        }
-      ],
-      "color": "default"
-    }
-  },
-  {
-    "object": "block",
-    "id": "7f81b476-186c-4606-a21c-55d70a29e31f",
-    "parent": {
-      "type": "page_id",
-      "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
-    },
-    "created_time": "2023-07-07T18:03:00.000Z",
-    "last_edited_time": "2023-07-07T18:04:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "last_edited_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "has_children": false,
-    "archived": false,
-    "type": "child_database",
-    "child_database": {
-      "title": "This is a table"
-    }
-  },
-  {
-    "object": "block",
-    "id": "51bbaa48-aafe-4242-bf70-2871bf19cc26",
-    "parent": {
-      "type": "page_id",
-      "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
-    },
-    "created_time": "2023-07-07T18:05:00.000Z",
-    "last_edited_time": "2023-07-07T18:05:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "last_edited_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "has_children": false,
-    "archived": false,
-    "type": "image",
-    "image": {
-      "caption": [],
-      "type": "external",
-      "external": {
-        "url": "https://images.unsplash.com/photo-1604537529428-15bcbeecfe4d?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb"
+        "color": "gray_background"
+      }
+    },
+    {
+      "object": "block",
+      "id": "c1b48cbc-7e96-46bf-800e-9177fa2672ca",
+      "parent": {
+        "type": "page_id",
+        "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
+      },
+      "created_time": "2023-07-07T18:11:00.000Z",
+      "last_edited_time": "2023-07-07T18:11:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "43804446-140c-4054-9133-1150f35bd40a"
+      },
+      "has_children": false,
+      "archived": false,
+      "type": "table_of_contents",
+      "table_of_contents": {
+        "color": "gray"
       }
     }
-  },
-  {
-    "object": "block",
-    "id": "bcf011b5-9b13-422f-88fc-69ea7dcd6efb",
-    "parent": {
-      "type": "page_id",
-      "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
-    },
-    "created_time": "2023-07-07T18:08:00.000Z",
-    "last_edited_time": "2023-07-07T18:08:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "last_edited_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "has_children": false,
-    "archived": false,
-    "type": "to_do",
-    "to_do": {
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "todo list",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "todo list",
-          "href": null
-        }
-      ],
-      "checked": false,
-      "color": "default"
-    }
-  },
-  {
-    "object": "block",
-    "id": "200daf43-d3ff-4e8f-a107-edc2627f8969",
-    "parent": {
-      "type": "page_id",
-      "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
-    },
-    "created_time": "2023-07-07T18:08:00.000Z",
-    "last_edited_time": "2023-07-07T18:08:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "last_edited_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "has_children": false,
-    "archived": false,
-    "type": "to_do",
-    "to_do": {
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "another todo check",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "another todo check",
-          "href": null
-        }
-      ],
-      "checked": false,
-      "color": "default"
-    }
-  },
-  {
-    "object": "block",
-    "id": "94863922-6965-4b05-b23b-a0ead8beef27",
-    "parent": {
-      "type": "page_id",
-      "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
-    },
-    "created_time": "2023-07-07T18:08:00.000Z",
-    "last_edited_time": "2023-07-07T18:08:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "last_edited_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "has_children": false,
-    "archived": false,
-    "type": "callout",
-    "callout": {
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "this is a callout",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "this is a callout",
-          "href": null
-        }
-      ],
-      "icon": {
-        "type": "emoji",
-        "emoji": "🚧"
-      },
-      "color": "gray_background"
-    }
-  },
-  {
-    "object": "block",
-    "id": "c1b48cbc-7e96-46bf-800e-9177fa2672ca",
-    "parent": {
-      "type": "page_id",
-      "page_id": "3861029c-d775-46bb-99d7-a6ef29c6085a"
-    },
-    "created_time": "2023-07-07T18:11:00.000Z",
-    "last_edited_time": "2023-07-07T18:11:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "last_edited_by": {
-      "object": "user",
-      "id": "43804446-140c-4054-9133-1150f35bd40a"
-    },
-    "has_children": false,
-    "archived": false,
-    "type": "table_of_contents",
-    "table_of_contents": {
-      "color": "gray"
-    }
-  }
-]
+  ],
+  "next_cursor": null,
+  "has_more": false,
+  "type": "block",
+  "block": {},
+  "developer_survey": "https://notionup.typeform.com/to/bllBsoI4?utm_source=postman"
+}

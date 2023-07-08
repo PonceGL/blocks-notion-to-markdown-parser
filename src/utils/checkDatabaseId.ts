@@ -3,7 +3,6 @@ const MESSAGE_ERROR = {
   INCORRECT: "incorrect databaseId",
 };
 
-const LENGTH = 32;
 
 export function checkDatabaseId(id: string) {
   if (!id) {
@@ -11,10 +10,6 @@ export function checkDatabaseId(id: string) {
   }
 
   if (typeof id !== "string") {
-    throw new Error(MESSAGE_ERROR.INCORRECT);
-  }
-
-  if (id.length !== LENGTH) {
     throw new Error(MESSAGE_ERROR.INCORRECT);
   }
 }

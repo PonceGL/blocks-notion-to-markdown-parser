@@ -1,10 +1,13 @@
-import { ENDPOINTS, NOTION_API_DATA } from "./api/config";
+import { ENDPOINTS, NOTION_API_DATA } from "../api/config";
 import { fecthData } from "./fecthData";
-import { databaseData } from "./format/databaseData";
-import { ItemDatabaseClean } from "./interfaces/databases";
-import { ConectData, OptionsRequest, OptionsRequestFilters } from "./types";
-import { checkDatabaseId } from "./utils/checkDatabaseId";
-import { checkKey } from "./utils/checkKey";
+import { databaseData } from "../format/databaseData";
+import {
+  DataBaseResponseNotionAPI,
+  ItemDatabaseClean,
+} from "../interfaces/databases";
+import { ConectData, OptionsRequest, OptionsRequestFilters } from "../types";
+import { checkDatabaseId } from "../utils/checkDatabaseId";
+import { checkKey } from "../utils/checkKey";
 
 type Props = Omit<ConectData, "options">;
 export async function gatDatabasesInfo({
@@ -41,7 +44,7 @@ export async function gatDatabasesInfo({
     data: filters,
   };
 
-  const data = await fecthData({
+  const data = await fecthData<DataBaseResponseNotionAPI>({
     notion_key,
     options,
   });

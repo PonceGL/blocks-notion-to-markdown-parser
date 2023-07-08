@@ -1,5 +1,16 @@
 import { Parent, TedBy } from "../types";
 
+
+export type BlocksResponseNotionAPI = {
+  object: string;
+  results: Block[];
+  next_cursor: null;
+  has_more: boolean;
+  type: string;
+  block: object;
+  developer_survey: string;
+};
+
 export type Block = {
   object: string;
   id: string;
@@ -10,23 +21,20 @@ export type Block = {
   last_edited_by: TedBy;
   has_children: boolean;
   archived: boolean;
-  type: string;
-  paragraph?: Paragraph;
-  heading3?: Heading;
-  quote?: Paragraph;
-  code?: Code;
-  heading1?: Heading;
-  heading2?: Heading;
-  divider?: Divider;
-  bulletedListItem?: Paragraph;
-  numberedListItem?: Paragraph;
-  toggle?: Paragraph;
-  childDatabase?: ChildDatabase;
-  image?: Image;
-  toDo?: ToDo;
-  callout?: Callout;
-  tableOfContents?: TableOfContents;
+  type: BlockType;
+  [key: string]: TypeBlock;
 };
+
+export type TypeBlock =
+  | Paragraph
+  | Heading
+  | Code
+  | Divider
+  | ChildDatabase
+  | Image
+  | ToDo
+  | Callout
+  | TableOfContents;
 
 export type BlockType =
   | "code"

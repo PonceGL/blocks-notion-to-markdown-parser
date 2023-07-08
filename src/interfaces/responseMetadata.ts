@@ -1,39 +1,33 @@
-import { Parent, TedBy } from "../types";
-
-export type ItemDatabaseClean = {
-  id: string;
-  draft: boolean;
-  ogImage: string | null;
-  slug: string;
-  featured: boolean;
-  description: string;
-  author: string;
-  date: string;
-  tags: string[];
-  title: string;
-};
-
-export type Database = {
+export type ResponseMetadata = {
   object: string;
   id: string;
   created_time: string;
   last_edited_time: string;
-  created_by: TedBy;
-  last_edited_by: TedBy;
+  created_by: {
+    object: string;
+    id: string;
+  };
+  last_edited_by: {
+    object: string;
+    id: string;
+  };
   cover: string | null;
-  icon: null;
-  parent: Parent;
+  icon: string | null;
+  parent: {
+    type: string;
+    database_id: string;
+  };
   archived: boolean;
   properties: {
     draft: {
       id: string;
       type: string;
-      checkbox: false;
+      checkbox: boolean;
     };
     ogImage: {
       id: string;
       type: string;
-      url: null;
+      url: string | null;
     };
     slug: {
       id: string;
@@ -43,25 +37,25 @@ export type Database = {
           type: string;
           text: {
             content: string;
-            link: null;
+            link: string | null;
           };
           annotations: {
-            bold: false;
-            italic: false;
-            strikethrough: false;
-            underline: false;
-            code: false;
+            bold: boolean;
+            italic: boolean;
+            strikethrough: boolean;
+            underline: boolean;
+            code: boolean;
             color: string;
           };
           plain_text: string;
-          href: null;
+          href: string | null;
         }
       ];
     };
     featured: {
       id: string;
       type: string;
-      checkbox: false;
+      checkbox: true;
     };
     description: {
       id: string;
@@ -71,18 +65,18 @@ export type Database = {
           type: string;
           text: {
             content: string;
-            link: null;
+            link: string | null;
           };
           annotations: {
-            bold: false;
-            italic: false;
-            strikethrough: false;
-            underline: false;
-            code: false;
+            bold: boolean;
+            italic: boolean;
+            strikethrough: boolean;
+            underline: boolean;
+            code: boolean;
             color: string;
           };
           plain_text: string;
-          href: null;
+          href: string | null;
         }
       ];
     };
@@ -120,32 +114,23 @@ export type Database = {
           type: string;
           text: {
             content: string;
-            link: null;
+            link: string | null;
           };
           annotations: {
-            bold: false;
-            italic: false;
-            strikethrough: false;
-            underline: false;
-            code: false;
+            bold: boolean;
+            italic: boolean;
+            strikethrough: boolean;
+            underline: boolean;
+            code: boolean;
             color: string;
           };
           plain_text: string;
-          href: null;
+          href: string | null;
         }
       ];
     };
   };
-  url: string;
-  public_url: null | string;
-};
-
-export type DataBaseResponseNotionAPI = {
-  object: string;
-  results: Database[];
-  next_cursor: null;
-  has_more: boolean;
-  type: string;
-  page: object;
+  url: string | null;
+  public_url: string | null;
   developer_survey: string;
 };
