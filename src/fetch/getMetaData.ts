@@ -1,5 +1,6 @@
 import { ENDPOINTS, NOTION_API_DATA } from '../api/config';
 import { metadataData } from '../format/metadata';
+import { ItemDatabaseClean } from '../interfaces/databases';
 import { ConectData, OptionsRequest } from '../interfaces/fetch';
 import { ResponseMetadata } from '../interfaces/responseMetadata';
 import { checkDatabaseId } from '../utils/checkDatabaseId';
@@ -8,7 +9,7 @@ import { fecthData } from './fecthData';
 
 export type PropsMetaData = Omit<ConectData, 'options'>;
 
-export async function getMetaData({ notion_key, databaseId }: PropsMetaData) {
+export async function getMetaData({ notion_key, databaseId }: PropsMetaData): Promise<ItemDatabaseClean> {
   checkKey(notion_key);
   checkDatabaseId(databaseId);
 

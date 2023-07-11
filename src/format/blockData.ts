@@ -1,4 +1,4 @@
-import { Block, BlockType, TypeBlock } from '../interfaces/blocks';
+import { Block, BlockType, CleanBlock, TypeBlock } from '../interfaces/blocks';
 import { handleCode } from './handleCode';
 
 function getRichText(type: BlockType, data: TypeBlock): string {
@@ -29,7 +29,7 @@ function getRichText(type: BlockType, data: TypeBlock): string {
   return '\n';
 }
 
-export function blockData(blocks: Block[]) {
+export function blockData(blocks: Block[]): CleanBlock[] {
   const sections = blocks.map((block) => {
     const { id, type } = block;
     const contentType = block[type];

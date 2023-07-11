@@ -1,5 +1,11 @@
 import { Parent, TedBy } from './fetch';
 
+export type CleanBlock = {
+  id: string;
+  type: BlockType;
+  content: string;
+};
+
 export type BlocksResponseNotionAPI = {
   object: string;
   results: Block[];
