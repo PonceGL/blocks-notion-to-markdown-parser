@@ -1,6 +1,6 @@
 import { ENDPOINTS, NOTION_API_DATA } from '../api/config';
 import { blockData } from '../format/blockData';
-import { BlocksResponseNotionAPI, CleanBlock } from '../interfaces/blocks';
+import { Block, BlocksResponseNotionAPI, CleanBlock } from '../interfaces/blocks';
 import { ConectData, OptionsRequest } from '../interfaces/fetch';
 import { checkDatabaseId } from '../utils/checkDatabaseId';
 import { checkKey } from '../utils/checkKey';

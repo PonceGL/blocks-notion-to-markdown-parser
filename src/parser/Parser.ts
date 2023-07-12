@@ -16,15 +16,11 @@ class Parser {
     this.typeBlock = typeBlock;
   }
 
-  public generateData() {
+  public async generateData(): Promise<string> {
     this.generateMetadata();
-    const text = this.typeBlock.format(this.blocks);
+    const text = await this.typeBlock.format(this.blocks);
     const markdown = `${this.template}\n\n${text.trim()}\n`;
-    console.log('====================================');
-    console.log('============= markdown =============');
-    console.log('====================================');
-    console.log(markdown);
-    console.log('====================================');
+    return markdown;
   }
   private generateMetadata() {
     const { draft, ogImage, slug, featured, description, date, tags, title } = this.metadata;
@@ -54,7 +50,7 @@ class Parser {
   }
 }
 
-export function parser({ metadata, blocks }: DataForParser) {
-  const typeBlock = new TypeBlockParser();
+export function parser({ metadata, blocks, notion_key }: DataForParser) {
+  const typeBlock = new TypeBlockParser(notion_key);
   return new Parser(metadata, blocks, typeBlock);
 }

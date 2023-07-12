@@ -1,4 +1,5 @@
 import { Block, BlockType, CleanBlock, TypeBlock } from '../interfaces/blocks';
+import { handleAnnotations } from './handleAnnotations';
 import { handleCode } from './handleCode';
 
 function getRichText(type: BlockType, data: TypeBlock): string {
@@ -30,18 +31,17 @@ function getRichText(type: BlockType, data: TypeBlock): string {
     if (Array.isArray(data.rich_text)) {
       if (data.rich_text.length > 0) {
         const text = data.rich_text
-          .map((t) => {
-            if (t.href !== null) {
-              return `[${t.plain_text}](${t.href})`;
+          .map(({ plain_text, annotations, href }) => {
+            if (href !== null) {
+              return `[${plain_text}](${href})`;
             }
-            return t.plain_text;
+            return handleAnnotations({ plain_text, annotations });
           })
           .join('');
         return text;
       }
     }
   }
-
 
   console.log('====================================');
   console.log('Falta el tipo: ', type);

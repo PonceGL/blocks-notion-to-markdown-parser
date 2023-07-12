@@ -30,7 +30,18 @@ export type Block = {
   [key: string]: TypeBlock;
 };
 
-export type TypeBlock = Paragraph | Heading | Code | Divider | ChildDatabase | Image | ToDo | Callout | TableOfContents;
+export type TypeBlock =
+  | Paragraph
+  | Heading
+  | Code
+  | Divider
+  | ChildDatabase
+  | Image
+  | ToDo
+  | Callout
+  | TableOfContents
+  | Table
+  | TableRow;
 
 export type BlockType =
   | 'code'
@@ -47,20 +58,30 @@ export type BlockType =
   | 'bulleted_list_item'
   | 'numbered_list_item'
   | 'child_database'
-  | 'table_of_contents';
+  | 'table_of_contents'
+  | 'table'
+  | 'table_row';
 
-export enum Color {
-  Gray = 'gray',
-  Blue = 'blue',
-  Default = 'black',
-  Green = 'green',
-  Purple = 'purple',
-  Pink = 'pink',
-  Red = 'red',
-  Brown = 'brown',
-  Orange = 'orange',
-  Yellow = 'yellow',
-}
+export type Color =
+  | 'blue'
+  | 'blue_background'
+  | 'brown'
+  | 'brown_background'
+  | 'default'
+  | 'gray'
+  | 'gray_background'
+  | 'green'
+  | 'green_background'
+  | 'orange'
+  | 'orange_background'
+  | 'pink'
+  | 'pink_background'
+  | 'purple'
+  | 'purple_background'
+  | 'red'
+  | 'red_background'
+  | 'yellow'
+  | 'yellow_background';
 
 export type Paragraph = {
   rich_text: RichText[];
@@ -131,6 +152,25 @@ export type Image = {
 export type TableOfContents = {
   color: string;
 };
+
+export type Table = {
+  table_width: number;
+  has_column_header: boolean;
+  has_row_header: boolean;
+};
+
+export type TableRow = {
+  cells: Cell[][];
+};
+
+export type Cell = {
+  type: string;
+  text: Text;
+  annotations: Annotations;
+  plain_text: string;
+  href: null;
+};
+
 
 export type ToDo = {
   rich_text: RichText[];
