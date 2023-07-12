@@ -35,10 +35,6 @@ export class TypeBlockParser {
         return;
       }
 
-      if (type === 'image') {
-        text += `\n![${content.trim()}](${content.trim()})\n`;
-        return;
-      }
 
       if (type === 'to_do') {
         text += `\n- [ ]  ${content.trim()}\n`;
