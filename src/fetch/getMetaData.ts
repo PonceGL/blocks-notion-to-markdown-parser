@@ -7,13 +7,13 @@ import { checkDatabaseId } from '../utils/checkDatabaseId';
 import { checkKey } from '../utils/checkKey';
 import { fecthData } from './fecthData';
 
-export type PropsMetaData = Omit<ConectData, 'options'>;
+export type PropsMetaData = Omit<ConectData, 'options' | 'databaseId'> & { block_id: string };
 
-export async function getMetaData({ notion_key, databaseId }: PropsMetaData): Promise<ItemDatabaseClean> {
+export async function getMetaData({ notion_key, block_id }: PropsMetaData): Promise<ItemDatabaseClean> {
   checkKey(notion_key);
-  checkDatabaseId(databaseId);
+  checkDatabaseId(block_id);
 
-  const url = ENDPOINTS.pageMetadata(databaseId);
+  const url = ENDPOINTS.pageMetadata(block_id);
 
   const options: OptionsRequest = {
     method: 'GET',

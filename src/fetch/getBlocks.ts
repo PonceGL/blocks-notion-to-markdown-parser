@@ -6,13 +6,13 @@ import { checkDatabaseId } from '../utils/checkDatabaseId';
 import { checkKey } from '../utils/checkKey';
 import { fecthData } from './fecthData';
 
-export type PropsBlocks = Omit<ConectData, 'options'>;
+export type PropsBlocks = Omit<ConectData, 'options' | 'databaseId'> & { block_id: string };
 
-export async function getBlocks({ notion_key, databaseId }: PropsBlocks): Promise<CleanBlock[]> {
+export async function getBlocks({ notion_key, block_id }: PropsBlocks): Promise<CleanBlock[]> {
   checkKey(notion_key);
-  checkDatabaseId(databaseId);
+  checkDatabaseId(block_id);
 
-  const url = ENDPOINTS.pageBlocks(databaseId);
+  const url = ENDPOINTS.pageBlocks(block_id);
 
   const options: OptionsRequest = {
     method: 'GET',

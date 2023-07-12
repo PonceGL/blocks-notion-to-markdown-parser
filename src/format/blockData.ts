@@ -9,7 +9,15 @@ function getRichText(type: BlockType, data: TypeBlock): string {
   if ('rich_text' in data) {
     if (Array.isArray(data.rich_text)) {
       if (data.rich_text.length > 0) {
-        return data.rich_text[0].plain_text;
+        const text = data.rich_text
+          .map((t) => {
+            if (t.href !== null) {
+              return `[${t.plain_text}](${t.href})`;
+            }
+            return t.plain_text;
+          })
+          .join('');
+        return text;
       }
     }
   }
@@ -24,9 +32,13 @@ function getRichText(type: BlockType, data: TypeBlock): string {
     }
   }
 
+  console.log('====================================');
+  console.log('Falta el tipo: ', type);
+  console.log('====================================');
+
   // child_database
 
-  return '\n';
+  return '';
 }
 
 export function blockData(blocks: Block[]): CleanBlock[] {
