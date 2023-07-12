@@ -5,3 +5,4 @@ export { CleanBlock } from './interfaces/blocks';
 export { ItemDatabaseClean } from './interfaces/databases';
 export { ParserBlocks } from './parser';
 export { DataForParser } from './interfaces/parser';
+export { CreateMarkdown } from './creatMarkdown';

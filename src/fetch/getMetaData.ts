@@ -9,6 +9,12 @@ import { fecthData } from './fecthData';
 
 export type PropsMetaData = Omit<ConectData, 'options' | 'databaseId'> & { block_id: string };
 
+/**
+ * The function `getMetaData` is an asynchronous function that retrieves metadata from a Notion page
+ * using a Notion key and block ID.
+ * @param {PropsMetaData}  - - `notion_key`: The API key for accessing the Notion API.
+ * @returns a Promise that resolves to an object of type `ItemDatabaseClean`.
+ */
 export async function getMetaData({ notion_key, block_id }: PropsMetaData): Promise<ItemDatabaseClean> {
   checkKey(notion_key);
   checkDatabaseId(block_id);

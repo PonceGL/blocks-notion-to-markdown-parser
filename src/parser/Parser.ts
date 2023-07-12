@@ -1,4 +1,4 @@
-import { CleanBlock, TypeBlock } from '../interfaces/blocks';
+import { CleanBlock } from '../interfaces/blocks';
 import { ItemDatabaseClean } from '../interfaces/databases';
 import { DataForParser } from '../interfaces/parser';
 import { TypeBlockParser } from './TypeBlock';
