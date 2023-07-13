@@ -23,8 +23,8 @@ class Parser {
     return markdown;
   }
   private generateMetadata() {
-    const { draft, ogImage, slug, featured, description, date, tags, title } = this.metadata;
-    const newData = `---\nauthor: PonceGL\ntitle: '${title}'\ndate: ${date}\ndescription: ${description}\npostSlug: ${slug}\nfeatured: ${featured}\ndraft: ${draft}\ntags:  ${this.generateListTags(
+    const { draft, ogImage, slug, featured, description, date, tags, title, author } = this.metadata;
+    const newData = `---\nauthor: ${author}\ntitle: '${title}'\ndate: ${date}\ndescription: ${description}\npostSlug: ${slug}\nfeatured: ${featured}\ndraft: ${draft}\ntags:  ${this.generateListTags(
       tags,
     )}\nogImage: ${ogImage}\nkeyWords: ""\n---\n`;
     this.template = newData.trim();

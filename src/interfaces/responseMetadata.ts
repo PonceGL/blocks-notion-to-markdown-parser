@@ -1,22 +1,21 @@
+import { RichText } from './blocks';
+import { Parent, TedBy } from './fetch';
+
+export type PropsMetadata = {
+  result: ResponseMetadata;
+  defaultUser: string;
+};
+
 export type ResponseMetadata = {
   object: string;
   id: string;
   created_time: string;
   last_edited_time: string;
-  created_by: {
-    object: string;
-    id: string;
-  };
-  last_edited_by: {
-    object: string;
-    id: string;
-  };
+  created_by: TedBy;
+  last_edited_by: TedBy;
   cover: string | null;
   icon: string | null;
-  parent: {
-    type: string;
-    database_id: string;
-  };
+  parent: Parent;
   archived: boolean;
   properties: {
     draft: {
@@ -32,105 +31,77 @@ export type ResponseMetadata = {
     slug: {
       id: string;
       type: string;
-      rich_text: [
-        {
-          type: string;
-          text: {
-            content: string;
-            link: string | null;
-          };
-          annotations: {
-            bold: boolean;
-            italic: boolean;
-            strikethrough: boolean;
-            underline: boolean;
-            code: boolean;
-            color: string;
-          };
-          plain_text: string;
-          href: string | null;
-        },
-      ];
+      rich_text: RichText[];
     };
     featured: {
       id: string;
       type: string;
       checkbox: true;
     };
-    description: {
-      id: string;
-      type: string;
-      rich_text: [
-        {
-          type: string;
-          text: {
-            content: string;
-            link: string | null;
-          };
-          annotations: {
-            bold: boolean;
-            italic: boolean;
-            strikethrough: boolean;
-            underline: boolean;
-            code: boolean;
-            color: string;
-          };
-          plain_text: string;
-          href: string | null;
-        },
-      ];
-    };
-    author: {
-      id: string;
-      type: string;
-      people: [
-        {
-          object: string;
-          id: string;
-        },
-      ];
-    };
+    description: Description;
+    author: Author;
     date: {
       id: string;
       type: string;
       created_time: string;
     };
-    tags: {
-      id: string;
-      type: string;
-      multi_select: [
-        {
-          id: string;
-          name: string;
-          color: string;
-        },
-      ];
-    };
-    title: {
-      id: string;
-      type: string;
-      title: [
-        {
-          type: string;
-          text: {
-            content: string;
-            link: string | null;
-          };
-          annotations: {
-            bold: boolean;
-            italic: boolean;
-            strikethrough: boolean;
-            underline: boolean;
-            code: boolean;
-            color: string;
-          };
-          plain_text: string;
-          href: string | null;
-        },
-      ];
-    };
+    tags: Tags;
+    title: Title;
   };
   url: string | null;
   public_url: string | null;
   developer_survey: string;
+};
+
+export type Description = {
+  id: string;
+  type: string;
+  rich_text: RichText[];
+};
+
+export type Author = {
+  id: string;
+  type: string;
+  people: [
+    {
+      object: string;
+      id: string;
+    },
+  ];
+};
+
+export type Tags = {
+  id: string;
+  type: string;
+  multi_select: [
+    {
+      id: string;
+      name: string;
+      color: string;
+    },
+  ];
+};
+
+export type Title = {
+  id: string;
+  type: string;
+  title: [
+    {
+      type: string;
+      text: {
+        content: string;
+        link: string | null;
+      };
+      annotations: {
+        bold: boolean;
+        italic: boolean;
+        strikethrough: boolean;
+        underline: boolean;
+        code: boolean;
+        color: string;
+      };
+      plain_text: string;
+      href: string | null;
+    },
+  ];
 };

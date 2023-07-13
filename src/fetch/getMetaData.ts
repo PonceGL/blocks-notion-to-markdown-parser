@@ -1,13 +1,13 @@
 import { ENDPOINTS, NOTION_API_DATA } from '../api/config';
 import { metadataData } from '../format/metadata';
 import { ItemDatabaseClean } from '../interfaces/databases';
-import { ConectData, OptionsRequest } from '../interfaces/fetch';
+import { OptionsRequest } from '../interfaces/fetch';
 import { ResponseMetadata } from '../interfaces/responseMetadata';
 import { checkDatabaseId } from '../utils/checkDatabaseId';
 import { checkKey } from '../utils/checkKey';
 import { fecthData } from './fecthData';
 
-export type PropsMetaData = Omit<ConectData, 'options' | 'databaseId'> & { block_id: string };
+export type PropsMetaData = { notion_key: string; block_id: string; defaultUser: string };
 
 /**
  * The function `getMetaData` is an asynchronous function that retrieves metadata from a Notion page
@@ -15,7 +15,7 @@ export type PropsMetaData = Omit<ConectData, 'options' | 'databaseId'> & { block
  * @param {PropsMetaData}  - - `notion_key`: The API key for accessing the Notion API.
  * @returns a Promise that resolves to an object of type `ItemDatabaseClean`.
  */
-export async function getMetaData({ notion_key, block_id }: PropsMetaData): Promise<ItemDatabaseClean> {
+export async function getMetaData({ notion_key, block_id, defaultUser }: PropsMetaData): Promise<ItemDatabaseClean> {
   checkKey(notion_key);
   checkDatabaseId(block_id);
 
@@ -35,7 +35,7 @@ export async function getMetaData({ notion_key, block_id }: PropsMetaData): Prom
     options,
   });
 
-  const metadata = metadataData(data);
+  const metadata = metadataData({ result: data, defaultUser });
 
   return metadata;
 }

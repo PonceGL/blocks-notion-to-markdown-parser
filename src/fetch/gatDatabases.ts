@@ -7,14 +7,18 @@ import { checkDatabaseId } from '../utils/checkDatabaseId';
 import { checkKey } from '../utils/checkKey';
 import { ConectData, OptionsRequest, OptionsRequestFilters } from '../interfaces/fetch';
 
-export type PropsDatabasesInfo = Omit<ConectData, 'options'>;
+export type PropsDatabasesInfo = Omit<ConectData, 'options'> & { defaultUser: string };
 /**
  * The function `getDatabasesInfo` retrieves information from a Notion database, filtering out draft
  * items and sorting them by date in descending order.
  * @param {PropsDatabasesInfo}  - - `notion_key`: The API key for accessing the Notion API.
  * @returns a Promise that resolves to an array of ItemDatabaseClean objects.
  */
-export async function gatDatabasesInfo({ notion_key, databaseId }: PropsDatabasesInfo): Promise<ItemDatabaseClean[]> {
+export async function gatDatabasesInfo({
+  notion_key,
+  databaseId,
+  defaultUser,
+}: PropsDatabasesInfo): Promise<ItemDatabaseClean[]> {
   checkKey(notion_key);
   checkDatabaseId(databaseId);
 
@@ -51,7 +55,7 @@ export async function gatDatabasesInfo({ notion_key, databaseId }: PropsDatabase
     options,
   });
 
-  const list = databaseData(data.results);
+  const list = databaseData({ results: data.results, defaultUser });
 
   return list;
 }

@@ -43,11 +43,6 @@ function getRichText(type: BlockType, data: TypeBlock): string {
     }
   }
 
-  console.log('====================================');
-  console.log('Falta el tipo: ', type);
-  console.log('====================================');
-
-  // child_database
 
   return '';
 }

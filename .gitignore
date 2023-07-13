@@ -226,3 +226,4 @@ $RECYCLE.BIN/
 /src/api/*.json
 /src/api/*.md
 markdown/
+test.js
