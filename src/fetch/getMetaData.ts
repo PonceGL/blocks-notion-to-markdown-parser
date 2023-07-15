@@ -3,7 +3,7 @@ import { metadataData } from '../format/metadata';
 import { ItemDatabaseClean } from '../interfaces/databases';
 import { OptionsRequest } from '../interfaces/fetch';
 import { ResponseMetadata } from '../interfaces/responseMetadata';
-import { checkDatabaseId } from '../utils/checkDatabaseId';
+import { checkBlockId } from '../utils/checkBlockId';
 import { checkKey } from '../utils/checkKey';
 import { fecthData } from './fecthData';
 
@@ -17,7 +17,7 @@ export type PropsMetaData = { notion_key: string; block_id: string; defaultUser:
  */
 export async function getMetaData({ notion_key, block_id, defaultUser }: PropsMetaData): Promise<ItemDatabaseClean> {
   checkKey(notion_key);
-  checkDatabaseId(block_id);
+  checkBlockId(block_id);
 
   const url = ENDPOINTS.pageMetadata(block_id);
 

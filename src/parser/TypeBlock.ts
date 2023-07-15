@@ -3,7 +3,7 @@ import { fecthData } from '../fetch/fecthData';
 import { handleAnnotations } from '../format/handleAnnotations';
 import { BlocksResponseNotionAPI, CleanBlock, TableRow } from '../interfaces/blocks';
 import { OptionsRequest } from '../interfaces/fetch';
-import { checkDatabaseId } from '../utils/checkDatabaseId';
+import { checkBlockId } from '../utils/checkBlockId';
 import { checkKey } from '../utils/checkKey';
 
 export class TypeBlockParser {
@@ -66,7 +66,7 @@ export class TypeBlockParser {
 
   private async getBlocks(block_id: string): Promise<string> {
     checkKey(this.notion_key);
-    checkDatabaseId(block_id);
+    checkBlockId(block_id);
 
     const url = ENDPOINTS.pageBlocks(block_id);
 

@@ -2,7 +2,7 @@ import { ENDPOINTS, NOTION_API_DATA } from '../api/config';
 import { blockData } from '../format/blockData';
 import { BlocksResponseNotionAPI, CleanBlock } from '../interfaces/blocks';
 import { ConectData, OptionsRequest } from '../interfaces/fetch';
-import { checkDatabaseId } from '../utils/checkDatabaseId';
+import { checkBlockId } from '../utils/checkBlockId';
 import { checkKey } from '../utils/checkKey';
 import { fecthData } from './fecthData';
 
@@ -17,7 +17,7 @@ export type PropsBlocks = Omit<ConectData, 'options' | 'databaseId'> & { block_i
  */
 export async function getBlocks({ notion_key, block_id }: PropsBlocks): Promise<CleanBlock[]> {
   checkKey(notion_key);
-  checkDatabaseId(block_id);
+  checkBlockId(block_id);
 
   const url = ENDPOINTS.pageBlocks(block_id);
 
